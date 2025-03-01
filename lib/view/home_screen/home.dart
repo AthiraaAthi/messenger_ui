@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: white,
-        title: Text(""),
+        title: Text("Chats"),
       ),
     );
   }
