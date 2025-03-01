@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -6,7 +7,9 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: white,
+      ),
     );
   }
 }
