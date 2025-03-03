@@ -9,7 +9,13 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: white,
       appBar: AppBar(
-        leading: CircleAvatar(),
+        leading: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: CircleAvatar(
+            radius: 5,
+            backgroundColor: black,
+          ),
+        ),
         backgroundColor: white,
         title: Text(
           "Chats",
