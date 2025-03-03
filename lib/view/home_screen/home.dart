@@ -25,7 +25,12 @@ class HomeScreen extends StatelessWidget {
           CircleAvatar(
             backgroundColor: grey,
             radius: 20,
-            child: IconButton(onPressed: () {}, icon: Icon(Icons.camera_alt)),
+            child: IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.camera_alt,
+                  color: black,
+                )),
           ),
           SizedBox(
             width: 10,
@@ -33,7 +38,12 @@ class HomeScreen extends StatelessWidget {
           CircleAvatar(
             backgroundColor: grey,
             radius: 20,
-            child: IconButton(onPressed: () {}, icon: Icon(Icons.edit_square)),
+            child: IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.edit_square,
+                  color: black,
+                )),
           ),
           SizedBox(
             width: 10,
