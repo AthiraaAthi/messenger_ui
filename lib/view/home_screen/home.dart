@@ -19,9 +19,7 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: white,
         title: Text(
           "Chats",
-          style: TextStyle(
-            fontSize: 25,
-          ),
+          style: TextStyle(fontSize: 28, fontWeight: FontWeight.w600),
         ),
       ),
     );
