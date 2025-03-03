@@ -30,7 +30,7 @@ class HomeScreen extends StatelessWidget {
             width: 10,
           ),
           CircleAvatar(
-            backgroundColor: const Color.fromARGB(255, 235, 232, 232),
+            backgroundColor: grey,
             radius: 20,
             child: IconButton(onPressed: () {}, icon: Icon(Icons.edit_square)),
           ),
