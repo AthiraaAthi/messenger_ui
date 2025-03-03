@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: white,
       appBar: AppBar(
         leading: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(5),
           child: CircleAvatar(
             radius: 5,
             backgroundColor: black,
@@ -19,7 +19,9 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: white,
         title: Text(
           "Chats",
-          style: TextStyle(),
+          style: TextStyle(
+            fontSize: 25,
+          ),
         ),
       ),
     );
