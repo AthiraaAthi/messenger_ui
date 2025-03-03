@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
         leading: Padding(
           padding: const EdgeInsets.all(5),
           child: CircleAvatar(
-            radius: 5,
+            radius: 20,
             backgroundColor: black,
           ),
         ),
@@ -21,7 +21,11 @@ class HomeScreen extends StatelessWidget {
           "Chats",
           style: TextStyle(fontSize: 28, fontWeight: FontWeight.w600),
         ),
-        actions: [],
+        actions: [
+          CircleAvatar(
+            radius: 20,
+          )
+        ],
       ),
     );
   }
