@@ -26,9 +26,15 @@ class HomeScreen extends StatelessWidget {
             radius: 20,
             child: IconButton(onPressed: () {}, icon: Icon(Icons.camera_alt)),
           ),
+          SizedBox(
+            width: 10,
+          ),
           CircleAvatar(
             radius: 20,
             child: IconButton(onPressed: () {}, icon: Icon(Icons.edit_square)),
+          ),
+          SizedBox(
+            width: 10,
           ),
         ],
       ),
