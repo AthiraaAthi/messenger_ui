@@ -23,6 +23,7 @@ class HomeScreen extends StatelessWidget {
         ),
         actions: [
           CircleAvatar(
+            backgroundColor: grey,
             radius: 20,
             child: IconButton(onPressed: () {}, icon: Icon(Icons.camera_alt)),
           ),
