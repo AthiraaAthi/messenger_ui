@@ -62,7 +62,7 @@ class HomeScreen extends StatelessWidget {
               borderRadius: BorderRadius.circular(20),
             ),
             child: Row(
-              children: [],
+              children: [Icon(Icons.search)],
             ),
           )
         ],
