@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
+import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -23,6 +24,7 @@ class HomeScreen extends StatelessWidget {
         ),
         actions: [
           CircleAvatar(
+            backgroundImage: AssetImage(profile),
             backgroundColor: grey,
             radius: 20,
             child: IconButton(
