@@ -17,6 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
     {'name': 'Karen', 'image': girl1, 'isAdd': 'false'},
     {'name': 'Ava', 'image': girls, 'isAdd': 'false'},
   ];
+  final List<Map<String, String>> chats = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
