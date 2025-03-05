@@ -115,6 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: ListView.builder(
                 shrinkWrap: true,
                 scrollDirection: Axis.horizontal,
+                itemCount: stories.length,
                 itemBuilder: (context, index) => Row(
                   children: [
                     Padding(
@@ -125,6 +126,9 @@ class _HomeScreenState extends State<HomeScreen> {
                         backgroundImage: stories[index]['isAdd'] == 'true'
                             ? null
                             : AssetImage(stories[index]['image']!),
+                        child: stories[index]['isAdd'] == 'true'
+                            ? Icon(Icons.add, size: 30, color: Colors.black)
+                            : null,
                       ),
                     ),
                   ],
