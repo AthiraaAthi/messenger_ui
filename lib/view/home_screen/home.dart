@@ -2,9 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  final List<Map<String, String>> stories = [
+    {'name': 'Add', 'image': '', 'isAdd': 'true'},
+    {'name': 'Joshua', 'image': boy1, 'isAdd': 'false'},
+    {'name': 'Alex', 'image': boy2, 'isAdd': 'false'},
+    {'name': 'Karen', 'image': girl1, 'isAdd': 'false'},
+    {'name': 'Ava', 'image': girls, 'isAdd': 'false'},
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,6 +25,9 @@ class HomeScreen extends StatelessWidget {
         leading: Padding(
           padding: const EdgeInsets.all(5),
           child: CircleAvatar(
+            backgroundImage: AssetImage(
+              profile,
+            ),
             radius: 20,
             backgroundColor: black,
           ),
@@ -24,7 +39,6 @@ class HomeScreen extends StatelessWidget {
         ),
         actions: [
           CircleAvatar(
-            backgroundImage: AssetImage(profile),
             backgroundColor: grey,
             radius: 20,
             child: IconButton(
@@ -81,23 +95,29 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            ListView.builder(
-              shrinkWrap: true,
-              scrollDirection: Axis.horizontal,
-              itemBuilder: (context, index) => Row(
-                children: [
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundColor: grey,
-                    child: IconButton(
-                        onPressed: () {},
-                        icon: Icon(
-                          Icons.add,
-                          color: black,
-                          size: 30,
-                        )),
-                  ),
-                ],
+            SizedBox(
+              height: 80,
+              child: ListView.builder(
+                shrinkWrap: true,
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) => Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: CircleAvatar(
+                        radius: 30,
+                        backgroundColor: grey,
+                        child: IconButton(
+                            onPressed: () {},
+                            icon: Icon(
+                              Icons.add,
+                              color: black,
+                              size: 30,
+                            )),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             )
           ],
