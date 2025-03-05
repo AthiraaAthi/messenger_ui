@@ -19,6 +19,18 @@ class _HomeScreenState extends State<HomeScreen> {
   ];
   final List<Map<String, String>> chats = [
     {'name': 'Martin Randolph', 'message': "What's man!", 'time': '9:40 AM'},
+    {'name': 'Andrew Parker', 'message': "Ok, thanks!", 'time': '9:25 AM'},
+    {'name': 'Karen Castillo', 'message': "Ok, See you in To..", 'time': 'Fri'},
+    {
+      'name': 'Maisy Humphrey',
+      'message': "Have a good day, Maisy!",
+      'time': 'Fri'
+    },
+    {
+      'name': 'Joshua Lawrence',
+      'message': "The business plan loo..",
+      'time': 'Thu'
+    },
   ];
   @override
   Widget build(BuildContext context) {
