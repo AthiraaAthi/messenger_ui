@@ -52,27 +52,30 @@ class HomeScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: Column(
-        children: [
-          Container(
-            height: 30,
-            width: double.infinity,
-            decoration: BoxDecoration(
-              color: grey,
-              borderRadius: BorderRadius.circular(20),
-            ),
-            child: Row(
-              children: [
-                Icon(
-                  Icons.search,
-                  color: Colors.grey,
-                ),
-                Text("Search",
-                    style: TextStyle(color: Colors.grey, fontSize: 18)),
-              ],
-            ),
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          children: [
+            Container(
+              height: 30,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                color: grey,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Row(
+                children: [
+                  Icon(
+                    Icons.search,
+                    color: Colors.grey,
+                  ),
+                  Text("Search",
+                      style: TextStyle(color: Colors.grey, fontSize: 18)),
+                ],
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
