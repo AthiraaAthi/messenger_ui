@@ -81,16 +81,19 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            CircleAvatar(
-              radius: 30,
-              backgroundColor: grey,
-              child: IconButton(
-                  onPressed: () {},
-                  icon: Icon(
-                    Icons.add,
-                    color: black,
-                    size: 30,
-                  )),
+            ListView.builder(
+              shrinkWrap: true,
+              itemBuilder: (context, index) => CircleAvatar(
+                radius: 30,
+                backgroundColor: grey,
+                child: IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.add,
+                      color: black,
+                      size: 30,
+                    )),
+              ),
             )
           ],
         ),
