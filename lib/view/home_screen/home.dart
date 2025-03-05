@@ -83,6 +83,7 @@ class HomeScreen extends StatelessWidget {
             ),
             ListView.builder(
               shrinkWrap: true,
+              scrollDirection: Axis.horizontal,
               itemBuilder: (context, index) => Row(
                 children: [
                   CircleAvatar(
