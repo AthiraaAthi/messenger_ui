@@ -81,7 +81,17 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            CircleAvatar()
+            CircleAvatar(
+              radius: 30,
+              backgroundColor: grey,
+              child: IconButton(
+                  onPressed: () {},
+                  icon: Icon(
+                    Icons.add,
+                    color: black,
+                    size: 30,
+                  )),
+            )
           ],
         ),
       ),
