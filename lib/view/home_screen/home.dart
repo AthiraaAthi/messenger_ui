@@ -69,6 +69,9 @@ class HomeScreen extends StatelessWidget {
                     Icons.search,
                     color: Colors.grey,
                   ),
+                  SizedBox(
+                    width: 10,
+                  ),
                   Text("Search",
                       style: TextStyle(color: Colors.grey, fontSize: 18)),
                 ],
