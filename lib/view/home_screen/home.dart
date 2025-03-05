@@ -57,11 +57,11 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
             Container(
-              height: 30,
+              height: 40,
               width: double.infinity,
               decoration: BoxDecoration(
                 color: grey,
-                borderRadius: BorderRadius.circular(20),
+                borderRadius: BorderRadius.circular(5),
               ),
               child: Row(
                 children: [
@@ -73,7 +73,10 @@ class HomeScreen extends StatelessWidget {
                       style: TextStyle(color: Colors.grey, fontSize: 18)),
                 ],
               ),
-            )
+            ),
+            SizedBox(
+              height: 20,
+            ),
           ],
         ),
       ),
