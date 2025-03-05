@@ -122,13 +122,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: CircleAvatar(
                         radius: 30,
                         backgroundColor: grey,
-                        child: IconButton(
-                            onPressed: () {},
-                            icon: Icon(
-                              Icons.add,
-                              color: black,
-                              size: 30,
-                            )),
+                        backgroundImage: stories[index]['isAdd'] == 'true'
+                            ? null
+                            : AssetImage(stories[index]['image']!),
                       ),
                     ),
                   ],
