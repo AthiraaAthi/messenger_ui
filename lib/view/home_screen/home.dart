@@ -110,8 +110,8 @@ class _HomeScreenState extends State<HomeScreen> {
             SizedBox(
               height: 20,
             ),
-            SizedBox(
-              height: 80,
+            Container(
+              height: 150,
               child: ListView.builder(
                 shrinkWrap: true,
                 scrollDirection: Axis.horizontal,
@@ -129,6 +129,12 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: stories[index]['isAdd'] == 'true'
                             ? Icon(Icons.add, size: 30, color: Colors.black)
                             : null,
+                      ),
+                      SizedBox(height: 10),
+                      Text(
+                        stories[index]['name']!,
+                        style: TextStyle(
+                            color: Colors.grey, fontWeight: FontWeight.bold),
                       ),
                     ],
                   ),
