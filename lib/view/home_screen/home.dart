@@ -116,11 +116,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 shrinkWrap: true,
                 scrollDirection: Axis.horizontal,
                 itemCount: stories.length,
-                itemBuilder: (context, index) => Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: CircleAvatar(
+                itemBuilder: (context, index) => Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    children: [
+                      CircleAvatar(
                         radius: 30,
                         backgroundColor: grey,
                         backgroundImage: stories[index]['isAdd'] == 'true'
@@ -130,8 +130,8 @@ class _HomeScreenState extends State<HomeScreen> {
                             ? Icon(Icons.add, size: 30, color: Colors.black)
                             : null,
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
             )
