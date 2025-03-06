@@ -141,7 +141,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
             ),
-            Container()
+            Container(
+              height: 80,
+            )
           ],
         ),
       ),
