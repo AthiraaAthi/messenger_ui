@@ -146,7 +146,7 @@ class _HomeScreenState extends State<HomeScreen> {
               width: double.infinity,
               color: Colors.amberAccent,
               child: Row(
-                children: [],
+                children: [CircleAvatar()],
               ),
             )
           ],
