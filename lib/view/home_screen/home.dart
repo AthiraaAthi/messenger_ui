@@ -152,6 +152,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     backgroundColor: grey,
                     backgroundImage: AssetImage(boy1),
                   ),
+                  SizedBox(
+                    width: 10,
+                  ),
                 ],
               ),
             )
