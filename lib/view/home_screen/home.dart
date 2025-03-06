@@ -12,8 +12,8 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final List<Map<String, String>> stories = [
     {'name': 'Add', 'image': '', 'isAdd': 'true'},
-    {'name': 'Joshua', 'image': boy1, 'isAdd': 'false'},
-    {'name': 'Alex', 'image': boy2, 'isAdd': 'false'},
+    {'name': 'Alex', 'image': boy1, 'isAdd': 'false'},
+    {'name': 'Joshua', 'image': boy2, 'isAdd': 'false'},
     {'name': 'Karen', 'image': girl1, 'isAdd': 'false'},
     {'name': 'Ava', 'image': girls, 'isAdd': 'false'},
   ];
