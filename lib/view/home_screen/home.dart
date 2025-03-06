@@ -144,6 +144,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Container(
               height: 80,
               width: double.infinity,
+              color: Colors.amberAccent,
             )
           ],
         ),
