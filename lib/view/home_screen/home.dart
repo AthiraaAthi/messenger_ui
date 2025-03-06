@@ -155,9 +155,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   SizedBox(
                     width: 10,
                   ),
-                  Text(
-                    "Martin Randolph",
-                  ),
+                  Text("Martin Randolph",
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 17,
+                          fontWeight: FontWeight.w700)),
                 ],
               ),
             )
