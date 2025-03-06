@@ -145,6 +145,9 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 80,
               width: double.infinity,
               color: Colors.amberAccent,
+              child: Row(
+                children: [],
+              ),
             )
           ],
         ),
