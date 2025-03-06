@@ -142,9 +142,9 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             Container(
+              padding: EdgeInsets.all(10),
               height: 80,
               width: double.infinity,
-              color: Colors.amberAccent,
               child: Row(
                 children: [
                   CircleAvatar(
@@ -153,17 +153,31 @@ class _HomeScreenState extends State<HomeScreen> {
                     backgroundImage: AssetImage(boy1),
                   ),
                   SizedBox(
-                    width: 10,
+                    width: 20,
                   ),
                   Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text("Martin Randolph",
                           style: TextStyle(
                               color: Colors.black,
                               fontSize: 17,
                               fontWeight: FontWeight.w700)),
+                      Text("What's man! . " + "9:40pm",
+                          style: TextStyle(
+                              color: Colors.grey,
+                              fontSize: 15,
+                              fontWeight: FontWeight.w400)),
                     ],
                   ),
+                  SizedBox(
+                    width: 80,
+                  ),
+                  Icon(
+                    Icons.check_circle_outline,
+                    color: Colors.grey,
+                  )
                 ],
               ),
             )
