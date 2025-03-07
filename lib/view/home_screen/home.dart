@@ -168,24 +168,23 @@ class _HomeScreenState extends State<HomeScreen> {
                                 fontSize: 17,
                                 fontWeight: FontWeight.w700),
                           ),
-                          Flexible(
-                            child: Text(
-                              chats[index]['message']! +
-                                  " . " +
-                                  chats[index]['time']!,
-                              style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 15,
-                                  fontWeight: FontWeight.w400),
-                            ),
+                          Text(
+                            chats[index]['message']! +
+                                " . " +
+                                chats[index]['time']!,
+                            style: TextStyle(
+                                color: Colors.grey,
+                                fontSize: 15,
+                                fontWeight: FontWeight.w400),
                           ),
                         ],
                       ),
-                      Expanded(
-                        child: Icon(
-                          Icons.check_circle_outline,
-                          color: Colors.grey,
-                        ),
+                      SizedBox(
+                        width: 80,
+                      ),
+                      Icon(
+                        Icons.check_circle_outline,
+                        color: Colors.grey,
                       )
                     ],
                   ),
