@@ -18,19 +18,11 @@ class _HomeScreenState extends State<HomeScreen> {
     {'name': 'Ava', 'image': girls, 'isAdd': 'false'},
   ];
   final List<Map<String, String>> chats = [
-    {'name': 'Martin Randolph', 'message': "What's man!", 'time': '9:40 AM'},
-    {'name': 'Andrew Parker', 'message': "Ok, thanks!", 'time': '9:25 AM'},
-    {'name': 'Karen Castillo', 'message': "Ok, See you in To..", 'time': 'Fri'},
-    {
-      'name': 'Maisy Humphrey',
-      'message': "Have a good day, Maisy!",
-      'time': 'Fri'
-    },
-    {
-      'name': 'Joshua Lawrence',
-      'message': "The business plan loo..",
-      'time': 'Thu'
-    },
+    {'name': 'Martin', 'message': "What's man!", 'time': '9:40 AM'},
+    {'name': 'Andrew', 'message': "Ok, thanks!", 'time': '9:25 AM'},
+    {'name': 'Karen', 'message': "Ok, See you in To..", 'time': 'Fri'},
+    {'name': 'Maisy', 'message': "Have a good day, Maisy!", 'time': 'Fri'},
+    {'name': 'Joshua ', 'message': "The business plan loo..", 'time': 'Thu'},
   ];
   @override
   Widget build(BuildContext context) {
@@ -144,25 +136,28 @@ class _HomeScreenState extends State<HomeScreen> {
             ListView.builder(
               itemCount: chats.length,
               shrinkWrap: true,
-              itemBuilder: (context, index) => Container(
-                padding: EdgeInsets.all(10),
-                height: 80,
-                width: double.infinity,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    CircleAvatar(
-                      radius: 30,
-                      backgroundColor: grey,
-                      backgroundImage: AssetImage(boy1),
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Expanded(
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        crossAxisAlignment: CrossAxisAlignment.start,
+              itemBuilder: (context, index) => Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Container(
+                  color: Colors.amber,
+                  padding: EdgeInsets.all(
+                    10,
+                  ),
+                  height: 80,
+                  width: double.infinity,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      CircleAvatar(
+                        radius: 30,
+                        backgroundColor: grey,
+                        backgroundImage: AssetImage(boy1),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
                             chats[index]['name']!,
@@ -171,25 +166,27 @@ class _HomeScreenState extends State<HomeScreen> {
                                 fontSize: 17,
                                 fontWeight: FontWeight.w700),
                           ),
-                          Text(
-                            chats[index]['message']! +
-                                " . " +
-                                chats[index]['time']!,
-                            style: TextStyle(
-                                color: Colors.grey,
-                                fontSize: 15,
-                                fontWeight: FontWeight.w400),
+                          Flexible(
+                            child: Text(
+                              chats[index]['message']! +
+                                  " . " +
+                                  chats[index]['time']!,
+                              style: TextStyle(
+                                  color: Colors.grey,
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.w400),
+                            ),
                           ),
                         ],
                       ),
-                    ),
-                    Expanded(
-                      child: Icon(
-                        Icons.check_circle_outline,
-                        color: Colors.grey,
-                      ),
-                    )
-                  ],
+                      Expanded(
+                        child: Icon(
+                          Icons.check_circle_outline,
+                          color: Colors.grey,
+                        ),
+                      )
+                    ],
+                  ),
                 ),
               ),
             )
