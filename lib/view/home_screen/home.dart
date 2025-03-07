@@ -167,7 +167,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                 color: Colors.black,
                                 fontSize: 17,
                                 fontWeight: FontWeight.w700)),
-                        Text("",
+                        Text(
+                            chats[index]['message']! +
+                                " . " +
+                                chats[index]['time']!,
                             style: TextStyle(
                                 color: Colors.grey,
                                 fontSize: 15,
