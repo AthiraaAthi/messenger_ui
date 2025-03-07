@@ -17,6 +17,13 @@ class _HomeScreenState extends State<HomeScreen> {
     {'name': 'Karen', 'image': girl1, 'isAdd': 'false'},
     {'name': 'Ava', 'image': girls, 'isAdd': 'false'},
   ];
+  final List<String> images = [
+    profile,
+    boy1,
+    boy2,
+    girl1,
+    girls,
+  ];
   final List<Map<String, String>> chats = [
     {'name': 'Martin', 'message': "What's man!", 'time': '9:40 AM'},
     {'name': 'Andrew', 'message': "Ok, thanks!", 'time': '9:25 AM'},
@@ -152,7 +159,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       CircleAvatar(
                         radius: 30,
                         backgroundColor: grey,
-                        backgroundImage: AssetImage(boy1),
+                        backgroundImage: AssetImage(stories[index]['image']!),
                       ),
                       SizedBox(
                         width: 10,
