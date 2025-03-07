@@ -149,6 +149,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 height: 80,
                 width: double.infinity,
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     CircleAvatar(
                       radius: 30,
@@ -156,33 +157,37 @@ class _HomeScreenState extends State<HomeScreen> {
                       backgroundImage: AssetImage(boy1),
                     ),
                     SizedBox(
-                      width: 20,
+                      width: 10,
                     ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(chats[index]['name']!,
+                    Expanded(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            chats[index]['name']!,
                             style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 17,
-                                fontWeight: FontWeight.w700)),
-                        Text(
+                                fontWeight: FontWeight.w700),
+                          ),
+                          Text(
                             chats[index]['message']! +
                                 " . " +
                                 chats[index]['time']!,
                             style: TextStyle(
                                 color: Colors.grey,
                                 fontSize: 15,
-                                fontWeight: FontWeight.w400)),
-                      ],
+                                fontWeight: FontWeight.w400),
+                          ),
+                        ],
+                      ),
                     ),
-                    SizedBox(
-                      width: 80,
-                    ),
-                    Icon(
-                      Icons.check_circle_outline,
-                      color: Colors.grey,
+                    Expanded(
+                      child: Icon(
+                        Icons.check_circle_outline,
+                        color: Colors.grey,
+                      ),
                     )
                   ],
                 ),
