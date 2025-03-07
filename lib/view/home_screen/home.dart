@@ -162,12 +162,12 @@ class _HomeScreenState extends State<HomeScreen> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Martin Randolph",
+                        Text(chats[index]['name']!,
                             style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 17,
                                 fontWeight: FontWeight.w700)),
-                        Text("What's man! . " + "9:40pm",
+                        Text("",
                             style: TextStyle(
                                 color: Colors.grey,
                                 fontSize: 15,
