@@ -148,7 +148,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 itemBuilder: (context, index) => Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
-                    color: Colors.amber,
                     padding: EdgeInsets.all(
                       10,
                     ),
