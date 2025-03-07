@@ -134,6 +134,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             ListView.builder(
+              scrollDirection: Axis.vertical,
               itemCount: chats.length,
               shrinkWrap: true,
               itemBuilder: (context, index) => Padding(
@@ -158,6 +159,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       Column(
                         mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
                             chats[index]['name']!,
