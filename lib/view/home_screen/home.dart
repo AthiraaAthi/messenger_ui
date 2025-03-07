@@ -28,8 +28,8 @@ class _HomeScreenState extends State<HomeScreen> {
     {'name': 'Martin', 'message': "What's man!", 'time': '9:40 AM'},
     {'name': 'Andrew', 'message': "Ok, thanks!", 'time': '9:25 AM'},
     {'name': 'Karen', 'message': "Ok, See you in To..", 'time': 'Fri'},
-    {'name': 'Maisy', 'message': "Have a good day, Maisy!", 'time': 'Fri'},
-    {'name': 'Joshua ', 'message': "The business plan loo..", 'time': 'Thu'},
+    {'name': 'Maisy', 'message': "Have a good day", 'time': 'Fri'},
+    {'name': 'Joshua ', 'message': "The business plan...", 'time': 'Thu'},
   ];
   @override
   Widget build(BuildContext context) {
