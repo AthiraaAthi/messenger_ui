@@ -142,6 +142,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             ListView.builder(
+              itemCount: chats.length,
               itemBuilder: (context, index) => Container(
                 padding: EdgeInsets.all(10),
                 height: 80,
