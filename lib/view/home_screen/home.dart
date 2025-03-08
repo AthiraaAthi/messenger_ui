@@ -131,6 +131,15 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ? Icon(Icons.add, size: 30, color: Colors.black)
                                 : null,
                           ),
+                          if (stories[index]['isAdd'] == 'false')
+                            Positioned(
+                              bottom: 5,
+                              right: 5,
+                              child: CircleAvatar(
+                                radius: 5,
+                                backgroundColor: Colors.green,
+                              ),
+                            ),
                         ]),
                         SizedBox(height: 10),
                         Text(
