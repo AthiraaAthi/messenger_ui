@@ -19,6 +19,8 @@ class _BottomNavState extends State<BottomNav> {
   ];
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: screens[_selectedIndex],
+    );
   }
 }
