@@ -8,6 +8,7 @@ class BottomNav extends StatefulWidget {
 }
 
 class _BottomNavState extends State<BottomNav> {
+  int _selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold();
