@@ -28,16 +28,25 @@ class _BottomNavState extends State<BottomNav> {
         backgroundColor: white,
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
+            icon: Icon(
+              Icons.chat_bubble,
+              size: 25,
+            ),
+            label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.group),
-            label: 'Groups',
+            icon: Icon(
+              Icons.group,
+              size: 25,
+            ),
+            label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.explore),
-            label: 'Discover',
+            icon: Icon(
+              Icons.explore,
+              size: 25,
+            ),
+            label: '',
           ),
         ],
         currentIndex: _selectedIndex,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:messenger_ui/view/home_screen/home.dart';
+import 'package:messenger_ui/view/bottom_nav/bottom_nav..dart';
 
 void main() {
   runApp(MessengerApp());
@@ -12,7 +12,7 @@ class MessengerApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: BottomNav(),
     );
   }
 }
