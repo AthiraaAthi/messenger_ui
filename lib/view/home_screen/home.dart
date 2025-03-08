@@ -136,8 +136,9 @@ class _HomeScreenState extends State<HomeScreen> {
                               bottom: 5,
                               right: 5,
                               child: CircleAvatar(
-                                radius: 5,
-                                backgroundColor: Colors.green,
+                                radius: 6,
+                                backgroundColor:
+                                    const Color.fromARGB(255, 46, 224, 52),
                               ),
                             ),
                         ]),
