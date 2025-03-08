@@ -82,7 +82,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(16),
+          padding: const EdgeInsets.all(10),
           child: Column(
             children: [
               Container(
@@ -120,16 +120,18 @@ class _HomeScreenState extends State<HomeScreen> {
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
                       children: [
-                        CircleAvatar(
-                          radius: 30,
-                          backgroundColor: grey,
-                          backgroundImage: stories[index]['isAdd'] == 'true'
-                              ? null
-                              : AssetImage(stories[index]['image']!),
-                          child: stories[index]['isAdd'] == 'true'
-                              ? Icon(Icons.add, size: 30, color: Colors.black)
-                              : null,
-                        ),
+                        Stack(children: [
+                          CircleAvatar(
+                            radius: 30,
+                            backgroundColor: grey,
+                            backgroundImage: stories[index]['isAdd'] == 'true'
+                                ? null
+                                : AssetImage(stories[index]['image']!),
+                            child: stories[index]['isAdd'] == 'true'
+                                ? Icon(Icons.add, size: 30, color: Colors.black)
+                                : null,
+                          ),
+                        ]),
                         SizedBox(height: 10),
                         Text(
                           stories[index]['name']!,
@@ -145,56 +147,50 @@ class _HomeScreenState extends State<HomeScreen> {
                 scrollDirection: Axis.vertical,
                 itemCount: chats.length,
                 shrinkWrap: true,
-                itemBuilder: (context, index) => Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    padding: EdgeInsets.all(
-                      10,
-                    ),
-                    height: 80,
-                    width: double.infinity,
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        CircleAvatar(
-                          radius: 30,
-                          backgroundColor: grey,
-                          backgroundImage: AssetImage(stories[index]['image']!),
-                        ),
-                        SizedBox(
-                          width: 10,
-                        ),
-                        Column(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              chats[index]['name']!,
-                              style: TextStyle(
-                                  color: Colors.black,
-                                  fontSize: 17,
-                                  fontWeight: FontWeight.w700),
-                            ),
-                            Text(
-                              chats[index]['message']! +
-                                  " . " +
-                                  chats[index]['time']!,
-                              style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 15,
-                                  fontWeight: FontWeight.w400),
-                            ),
-                          ],
-                        ),
-                        SizedBox(
-                          width: 70,
-                        ),
-                        Icon(
-                          Icons.check_circle_outline,
-                          color: Colors.grey,
-                        )
-                      ],
-                    ),
+                itemBuilder: (context, index) => Container(
+                  padding: EdgeInsets.all(
+                    10,
+                  ),
+                  height: 80,
+                  width: double.infinity,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      CircleAvatar(
+                        radius: 30,
+                        backgroundColor: grey,
+                        backgroundImage: AssetImage(images[index]),
+                      ),
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            chats[index]['name']!,
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 17,
+                                fontWeight: FontWeight.w700),
+                          ),
+                          Text(
+                            chats[index]['message']! +
+                                " . " +
+                                chats[index]['time']!,
+                            style: TextStyle(
+                                color: Colors.grey,
+                                fontSize: 15,
+                                fontWeight: FontWeight.w400),
+                          ),
+                        ],
+                      ),
+                      SizedBox(
+                        width: 50,
+                      ),
+                      Icon(
+                        Icons.check_circle_outline,
+                        color: Colors.grey,
+                      )
+                    ],
                   ),
                 ),
               )
