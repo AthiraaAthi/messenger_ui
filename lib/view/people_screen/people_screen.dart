@@ -28,20 +28,25 @@ class PeopleScreen extends StatelessWidget {
           CircleAvatar(
             backgroundColor: grey,
             radius: 20,
-            child: IconButton(
-                onPressed: () {},
-                icon: Icon(
-                  Icons.message,
-                  color: black,
-                )),
+            child: CircleAvatar(
+              backgroundColor: Colors.white,
+              radius: 10,
+              backgroundImage: AssetImage(msg_icon),
+            ),
           ),
           SizedBox(
             width: 10,
           ),
           CircleAvatar(
-            backgroundColor: grey,
-            radius: 20,
-          ),
+              backgroundColor: grey,
+              radius: 20,
+              child: IconButton(
+                  onPressed: () {},
+                  icon: Icon(
+                    Icons.person_add,
+                    color: black,
+                    size: 25,
+                  ))),
           SizedBox(
             width: 10,
           ),
