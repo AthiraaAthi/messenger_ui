@@ -38,6 +38,10 @@ class PeopleScreen extends StatelessWidget {
           SizedBox(
             width: 10,
           ),
+          CircleAvatar(),
+          SizedBox(
+            width: 10,
+          ),
         ],
       ),
     );
