@@ -24,6 +24,7 @@ class PeopleScreen extends StatelessWidget {
           "People",
           style: TextStyle(fontSize: 28, fontWeight: FontWeight.w600),
         ),
+        actions: [],
       ),
     );
   }
