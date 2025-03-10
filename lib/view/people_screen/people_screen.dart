@@ -38,7 +38,9 @@ class PeopleScreen extends StatelessWidget {
           SizedBox(
             width: 10,
           ),
-          CircleAvatar(),
+          CircleAvatar(
+            backgroundColor: grey,
+          ),
           SizedBox(
             width: 10,
           ),
