@@ -15,7 +15,7 @@ class _BottomNavState extends State<BottomNav> {
   int _selectedIndex = 0;
   List<Widget> screens = [
     HomeScreen(),
-    GroupsScreen(),
+    PeopleScreen(),
     DiscoverScreen(),
   ];
   @override
