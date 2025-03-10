@@ -20,6 +20,9 @@ class PeopleScreen extends StatelessWidget {
           ),
         ),
         backgroundColor: white,
+        title: Text(
+          "People",
+        ),
       ),
     );
   }
