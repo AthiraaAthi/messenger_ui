@@ -24,7 +24,18 @@ class PeopleScreen extends StatelessWidget {
           "People",
           style: TextStyle(fontSize: 28, fontWeight: FontWeight.w600),
         ),
-        actions: [],
+        actions: [
+          CircleAvatar(
+            backgroundColor: grey,
+            radius: 20,
+            child: IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.message,
+                  color: black,
+                )),
+          ),
+        ],
       ),
     );
   }
