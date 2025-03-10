@@ -19,6 +19,7 @@ class PeopleScreen extends StatelessWidget {
             backgroundColor: black,
           ),
         ),
+        backgroundColor: white,
       ),
     );
   }
