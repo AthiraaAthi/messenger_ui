@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 import 'package:messenger_ui/view/discover_screen/discover_screen.dart';
-import 'package:messenger_ui/view/groups_screen/groups_screen.dart';
+import 'package:messenger_ui/view/people_screen/people_screen.dart';
 import 'package:messenger_ui/view/home_screen/home.dart';
 
 class BottomNav extends StatefulWidget {
