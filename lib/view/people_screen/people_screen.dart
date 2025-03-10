@@ -15,6 +15,8 @@ class PeopleScreen extends StatelessWidget {
             backgroundImage: AssetImage(
               profile,
             ),
+            radius: 20,
+            backgroundColor: black,
           ),
         ),
       ),
