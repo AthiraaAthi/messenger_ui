@@ -60,6 +60,7 @@ class PeopleScreen extends StatelessWidget {
             padding: EdgeInsets.all(10),
             decoration: BoxDecoration(
               color: grey,
+              borderRadius: BorderRadius.circular(10),
             ),
           )
         ],
