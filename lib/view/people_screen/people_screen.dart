@@ -71,6 +71,10 @@ class PeopleScreen extends StatelessWidget {
                 SizedBox(
                   width: 10,
                 ),
+                Text(
+                  "Search",
+                  style: TextStyle(color: black, fontSize: 20),
+                )
               ],
             ),
           )
