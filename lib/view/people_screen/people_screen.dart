@@ -52,33 +52,36 @@ class PeopleScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: Column(
-        children: [
-          Container(
-            height: 40,
-            width: double.infinity,
-            padding: EdgeInsets.all(10),
-            decoration: BoxDecoration(
-              color: grey,
-              borderRadius: BorderRadius.circular(10),
-            ),
-            child: Row(
-              children: [
-                Icon(
-                  Icons.search,
-                  color: black,
-                ),
-                SizedBox(
-                  width: 10,
-                ),
-                Text(
-                  "Search",
-                  style: TextStyle(color: black, fontSize: 20),
-                )
-              ],
-            ),
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(10),
+        child: Column(
+          children: [
+            Container(
+              height: 40,
+              width: double.infinity,
+              padding: EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: grey,
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: Row(
+                children: [
+                  Icon(
+                    Icons.search,
+                    color: black,
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Text(
+                    "Search",
+                    style: TextStyle(color: black, fontSize: 20),
+                  )
+                ],
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
