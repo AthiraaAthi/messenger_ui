@@ -52,6 +52,9 @@ class PeopleScreen extends StatelessWidget {
           ),
         ],
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
