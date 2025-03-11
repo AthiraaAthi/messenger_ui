@@ -68,14 +68,14 @@ class PeopleScreen extends StatelessWidget {
                 children: [
                   Icon(
                     Icons.search,
-                    color: black,
+                    color: Colors.grey,
                   ),
                   SizedBox(
                     width: 10,
                   ),
                   Text(
                     "Search",
-                    style: TextStyle(color: black, fontSize: 20),
+                    style: TextStyle(color: Colors.grey, fontSize: 18),
                   )
                 ],
               ),
