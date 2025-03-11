@@ -63,7 +63,12 @@ class PeopleScreen extends StatelessWidget {
               borderRadius: BorderRadius.circular(10),
             ),
             child: Row(
-              children: [],
+              children: [
+                Icon(
+                  Icons.search,
+                  color: black,
+                ),
+              ],
             ),
           )
         ],
