@@ -57,6 +57,7 @@ class PeopleScreen extends StatelessWidget {
           Container(
             height: 40,
             width: double.infinity,
+            padding: EdgeInsets.all(10),
           )
         ],
       ),
