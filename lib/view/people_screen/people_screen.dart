@@ -62,6 +62,9 @@ class PeopleScreen extends StatelessWidget {
               color: grey,
               borderRadius: BorderRadius.circular(10),
             ),
+            child: Row(
+              children: [],
+            ),
           )
         ],
       ),
