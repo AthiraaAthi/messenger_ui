@@ -100,7 +100,10 @@ class PeopleScreen extends StatelessWidget {
                 "Add to your story",
                 style: TextStyle(fontSize: 14, color: Colors.grey),
               ),
-            )
+            ),
+            SizedBox(
+              height: 20,
+            ),
           ],
         ),
       ),
