@@ -92,6 +92,14 @@ class PeopleScreen extends StatelessWidget {
                   size: 30,
                 ),
               ),
+              title: Text(
+                "Your Story",
+                style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
+              ),
+              subtitle: Text(
+                "Add to your story",
+                style: TextStyle(fontSize: 14, color: Colors.grey),
+              ),
             )
           ],
         ),
