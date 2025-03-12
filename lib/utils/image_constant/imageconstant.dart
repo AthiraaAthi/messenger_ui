@@ -8,3 +8,5 @@ const String msg_icon = "assets/images/msg_icon.png";
 const String wave_icon = "assets/images/Wave.png";
 const String people1 = "assets\images\people1.png";
 const String people2 = "assets\images\people2.png";
+const String people3 = "assets\images\people3.png";
+const String people4 = "assets\images\people4.png";
