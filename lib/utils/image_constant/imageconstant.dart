@@ -6,3 +6,4 @@ const String girls = "assets/images/girls.png";
 const String girl1 = "assets/images/girl1.png";
 const String msg_icon = "assets/images/msg_icon.png";
 const String wave_icon = "assets/images/Wave.png";
+const String people1 = "assets\images\people1.png";
