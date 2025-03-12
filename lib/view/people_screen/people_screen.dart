@@ -107,6 +107,7 @@ class PeopleScreen extends StatelessWidget {
             ListTile(
               leading: CircleAvatar(
                 radius: 30,
+                backgroundImage: AssetImage(people1),
               ),
             ),
           ],
