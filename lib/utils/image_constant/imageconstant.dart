@@ -10,3 +10,5 @@ const String people1 = "assets\images\people1.png";
 const String people2 = "assets\images\people2.png";
 const String people3 = "assets\images\people3.png";
 const String people4 = "assets\images\people4.png";
+const String people5 = "assets\images\people5.png";
+const String people6 = "assets\images\people6.png";
