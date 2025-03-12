@@ -104,7 +104,9 @@ class PeopleScreen extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            ListTile(),
+            ListTile(
+              leading: CircleAvatar(),
+            ),
           ],
         ),
       ),
