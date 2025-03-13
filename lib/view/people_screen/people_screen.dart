@@ -10,6 +10,7 @@ class PeopleScreen extends StatefulWidget {
 }
 
 class _PeopleScreenState extends State<PeopleScreen> {
+  List<String> names = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
