@@ -120,7 +120,9 @@ class PeopleScreen extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 19, fontWeight: FontWeight.w600, color: black),
               ),
-              trailing: CircleAvatar(),
+              trailing: CircleAvatar(
+                radius: 10,
+              ),
             ),
           ],
         ),
