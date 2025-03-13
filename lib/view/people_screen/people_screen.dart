@@ -10,9 +10,7 @@ class PeopleScreen extends StatefulWidget {
 }
 
 class _PeopleScreenState extends State<PeopleScreen> {
-  List<String> names = [
-    "Ava Chen",
-  ];
+  List<String> names = ["Ava Chen", "Bridget von Ascheberg"];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
