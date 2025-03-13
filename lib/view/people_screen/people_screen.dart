@@ -115,6 +115,9 @@ class PeopleScreen extends StatelessWidget {
                   backgroundColor: Colors.green,
                 )
               ]),
+              title: Text(
+                "Ava Chen",
+              ),
             ),
           ],
         ),
