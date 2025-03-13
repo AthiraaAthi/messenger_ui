@@ -123,6 +123,7 @@ class PeopleScreen extends StatelessWidget {
               trailing: CircleAvatar(
                 radius: 20,
                 backgroundColor: grey,
+                child: Image.asset(wave_icon),
               ),
             ),
           ],
