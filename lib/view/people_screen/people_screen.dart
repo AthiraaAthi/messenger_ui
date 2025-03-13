@@ -18,7 +18,12 @@ class _PeopleScreenState extends State<PeopleScreen> {
     "Vivian Lau",
     "Isabella Valencia",
   ];
-  final List<Map<String, String>> namesAndImageList = [];
+  final List<Map<String, String>> namesAndImageList = [
+    {
+      'name': 'Ava Chen',
+      'image': people1,
+    },
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
