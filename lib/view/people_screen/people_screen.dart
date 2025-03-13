@@ -117,9 +117,7 @@ class PeopleScreen extends StatelessWidget {
               ]),
               title: Text(
                 "Ava Chen",
-                style: TextStyle(
-                  fontSize: 17,
-                ),
+                style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
               ),
             ),
           ],
