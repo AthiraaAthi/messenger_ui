@@ -2,9 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
 
-class PeopleScreen extends StatelessWidget {
+class PeopleScreen extends StatefulWidget {
   const PeopleScreen({super.key});
 
+  @override
+  State<PeopleScreen> createState() => _PeopleScreenState();
+}
+
+class _PeopleScreenState extends State<PeopleScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
