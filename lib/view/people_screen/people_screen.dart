@@ -15,6 +15,8 @@ class _PeopleScreenState extends State<PeopleScreen> {
     "Bridget von Ascheberg",
     "Jules Ambrose",
     "Stella Alonso",
+    "Vivian Lau",
+    "Isabella Valencia",
   ];
   @override
   Widget build(BuildContext context) {
