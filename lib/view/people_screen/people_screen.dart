@@ -47,6 +47,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: white,
       appBar: AppBar(
         leading: Padding(
           padding: const EdgeInsets.all(5),
