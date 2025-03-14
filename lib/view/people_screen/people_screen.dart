@@ -156,10 +156,14 @@ class _PeopleScreenState extends State<PeopleScreen> {
                     radius: 30,
                     backgroundImage: AssetImage(people1),
                   ),
-                  CircleAvatar(
-                    radius: 8,
-                    backgroundColor: Colors.green,
-                  )
+                  Positioned(
+                    bottom: 5,
+                    right: 5,
+                    child: CircleAvatar(
+                      radius: 7,
+                      backgroundColor: const Color.fromARGB(255, 46, 224, 52),
+                    ),
+                  ),
                 ]),
                 title: Text(
                   "Ava Chen",
