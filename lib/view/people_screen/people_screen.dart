@@ -144,6 +144,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
               height: 20,
             ),
             ListView.builder(
+              shrinkWrap: true,
               itemBuilder: (context, index) => ListTile(
                 leading: Stack(alignment: Alignment.bottomRight, children: [
                   CircleAvatar(
