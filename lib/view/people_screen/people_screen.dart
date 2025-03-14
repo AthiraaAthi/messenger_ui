@@ -143,28 +143,30 @@ class _PeopleScreenState extends State<PeopleScreen> {
             SizedBox(
               height: 20,
             ),
-            ListTile(
-              leading: Stack(alignment: Alignment.bottomRight, children: [
-                CircleAvatar(
-                  radius: 30,
-                  backgroundImage: AssetImage(people1),
+            ListView.builder(
+              itemBuilder: (context, index) => ListTile(
+                leading: Stack(alignment: Alignment.bottomRight, children: [
+                  CircleAvatar(
+                    radius: 30,
+                    backgroundImage: AssetImage(people1),
+                  ),
+                  CircleAvatar(
+                    radius: 8,
+                    backgroundColor: Colors.green,
+                  )
+                ]),
+                title: Text(
+                  "Ava Chen",
+                  style: TextStyle(
+                      fontSize: 19, fontWeight: FontWeight.w600, color: black),
                 ),
-                CircleAvatar(
-                  radius: 8,
-                  backgroundColor: Colors.green,
-                )
-              ]),
-              title: Text(
-                "Ava Chen",
-                style: TextStyle(
-                    fontSize: 19, fontWeight: FontWeight.w600, color: black),
+                trailing: CircleAvatar(
+                  radius: 20,
+                  backgroundColor: grey,
+                  child: Image.asset(wave_icon),
+                ),
               ),
-              trailing: CircleAvatar(
-                radius: 20,
-                backgroundColor: grey,
-                child: Image.asset(wave_icon),
-              ),
-            ),
+            )
           ],
         ),
       ),
