@@ -27,6 +27,10 @@ class _PeopleScreenState extends State<PeopleScreen> {
       'name': 'Bridget von Ascheberg',
       'image': people2,
     },
+    {
+      'name': 'Jules Ambrose',
+      'image': people3,
+    },
   ];
   @override
   Widget build(BuildContext context) {
