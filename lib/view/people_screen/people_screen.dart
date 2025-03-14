@@ -25,11 +25,11 @@ class _PeopleScreenState extends State<PeopleScreen> {
     },
     {
       'name': 'Bridget von Ascheberg',
-      'image': people2,
+      'image': girl1,
     },
     {
       'name': 'Jules Ambrose',
-      'image': people3,
+      'image': girls,
     },
     {
       'name': 'Stella Alonso',
@@ -154,7 +154,8 @@ class _PeopleScreenState extends State<PeopleScreen> {
                 leading: Stack(alignment: Alignment.bottomRight, children: [
                   CircleAvatar(
                     radius: 30,
-                    backgroundImage: AssetImage(people1),
+                    backgroundImage:
+                        AssetImage(namesAndImageList[index]['image']!),
                   ),
                   Positioned(
                     bottom: 5,
