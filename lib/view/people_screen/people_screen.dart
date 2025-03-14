@@ -44,7 +44,12 @@ class _PeopleScreenState extends State<PeopleScreen> {
       'image': people6,
     },
   ];
-  final List<Map<String, String>> recentActive = [];
+  final List<Map<String, String>> recentActive = [
+    {
+      "name": "Alex",
+      "image": boy1,
+    }
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
