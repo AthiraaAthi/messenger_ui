@@ -166,7 +166,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
                   ),
                 ]),
                 title: Text(
-                  "Ava Chen",
+                  namesAndImageList[index]['name']!,
                   style: TextStyle(
                       fontSize: 19, fontWeight: FontWeight.w600, color: black),
                 ),
