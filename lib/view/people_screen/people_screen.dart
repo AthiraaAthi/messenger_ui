@@ -202,7 +202,8 @@ class _PeopleScreenState extends State<PeopleScreen> {
                 style: TextStyle(fontSize: 20, color: grey)),
             SizedBox(
               height: 20,
-            )
+            ),
+            ListTile()
           ],
         ),
       ),
