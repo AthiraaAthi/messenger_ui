@@ -203,7 +203,11 @@ class _PeopleScreenState extends State<PeopleScreen> {
             SizedBox(
               height: 20,
             ),
-            ListTile()
+            ListTile(
+              leading: Stack(
+                children: [],
+              ),
+            )
           ],
         ),
       ),
