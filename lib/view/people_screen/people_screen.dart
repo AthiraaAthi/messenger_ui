@@ -225,7 +225,15 @@ class _PeopleScreenState extends State<PeopleScreen> {
                   Positioned(
                     bottom: 0,
                     left: 3,
-                    child: Container(),
+                    child: Container(
+                      height: 16,
+                      width: 50,
+                      padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                      decoration: BoxDecoration(
+                        color: Color(0xffC7F0BB),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                    ),
                   ),
                 ],
               ),
