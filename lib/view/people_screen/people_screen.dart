@@ -198,7 +198,8 @@ class _PeopleScreenState extends State<PeopleScreen> {
             SizedBox(
               height: 30,
             ),
-            Text("Recent Active", style: TextStyle(fontSize: 20, color: grey)),
+            Text("RECENTLY ACTIVE",
+                style: TextStyle(fontSize: 20, color: grey)),
           ],
         ),
       ),
