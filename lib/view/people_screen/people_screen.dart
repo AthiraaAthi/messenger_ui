@@ -102,94 +102,104 @@ class _PeopleScreenState extends State<PeopleScreen> {
           ),
         ],
       ),
-      body: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Container(
-              height: 40,
-              width: double.infinity,
-              padding: EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                color: grey,
-                borderRadius: BorderRadius.circular(10),
-              ),
-              child: Row(
-                children: [
-                  Icon(
-                    Icons.search,
-                    color: Colors.grey,
-                  ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Text(
-                    "Search",
-                    style: TextStyle(color: Colors.grey, fontSize: 18),
-                  )
-                ],
-              ),
-            ),
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 30,
-              child: Icon(
-                Icons.add,
-                color: black,
-                size: 30,
-              ),
-            ),
-            title: Text(
-              "Your Story",
-              style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
-            ),
-            subtitle: Text(
-              "Add to your story",
-              style: TextStyle(fontSize: 14, color: Colors.grey),
-            ),
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          ListView.builder(
-            shrinkWrap: true,
-            itemCount: namesAndImageList.length,
-            itemBuilder: (context, index) => Padding(
+      body: SingleChildScrollView(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Padding(
               padding: const EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: Stack(alignment: Alignment.bottomRight, children: [
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundImage:
-                        AssetImage(namesAndImageList[index]['image']!),
-                  ),
-                  Positioned(
-                    bottom: 5,
-                    right: 5,
-                    child: CircleAvatar(
-                      radius: 7,
-                      backgroundColor: const Color.fromARGB(255, 46, 224, 52),
-                    ),
-                  ),
-                ]),
-                title: Text(
-                  namesAndImageList[index]['name']!,
-                  style: TextStyle(
-                      fontSize: 19, fontWeight: FontWeight.w600, color: black),
+              child: Container(
+                height: 40,
+                width: double.infinity,
+                padding: EdgeInsets.all(10),
+                decoration: BoxDecoration(
+                  color: grey,
+                  borderRadius: BorderRadius.circular(10),
                 ),
-                trailing: CircleAvatar(
-                  radius: 20,
-                  backgroundColor: grey,
-                  child: Image.asset(wave_icon),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.search,
+                      color: Colors.grey,
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                      "Search",
+                      style: TextStyle(color: Colors.grey, fontSize: 18),
+                    )
+                  ],
                 ),
               ),
             ),
-          )
-        ],
+            SizedBox(
+              height: 20,
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                radius: 30,
+                child: Icon(
+                  Icons.add,
+                  color: black,
+                  size: 30,
+                ),
+              ),
+              title: Text(
+                "Your Story",
+                style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
+              ),
+              subtitle: Text(
+                "Add to your story",
+                style: TextStyle(fontSize: 14, color: Colors.grey),
+              ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            ListView.builder(
+              shrinkWrap: true,
+              physics: NeverScrollableScrollPhysics(),
+              itemCount: namesAndImageList.length,
+              itemBuilder: (context, index) => Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: ListTile(
+                  leading: Stack(alignment: Alignment.bottomRight, children: [
+                    CircleAvatar(
+                      radius: 30,
+                      backgroundImage:
+                          AssetImage(namesAndImageList[index]['image']!),
+                    ),
+                    Positioned(
+                      bottom: 5,
+                      right: 5,
+                      child: CircleAvatar(
+                        radius: 7,
+                        backgroundColor: const Color.fromARGB(255, 46, 224, 52),
+                      ),
+                    ),
+                  ]),
+                  title: Text(
+                    namesAndImageList[index]['name']!,
+                    style: TextStyle(
+                        fontSize: 19,
+                        fontWeight: FontWeight.w600,
+                        color: black),
+                  ),
+                  trailing: CircleAvatar(
+                    radius: 20,
+                    backgroundColor: grey,
+                    child: Image.asset(wave_icon),
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+          ],
+        ),
       ),
     );
   }
