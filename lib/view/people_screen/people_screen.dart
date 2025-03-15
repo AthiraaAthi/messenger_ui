@@ -217,7 +217,12 @@ class _PeopleScreenState extends State<PeopleScreen> {
             ),
             ListTile(
               leading: Stack(
-                children: [],
+                children: [
+                  CircleAvatar(
+                    radius: 24,
+                    backgroundImage: AssetImage(boy1),
+                  ),
+                ],
               ),
             )
           ],
