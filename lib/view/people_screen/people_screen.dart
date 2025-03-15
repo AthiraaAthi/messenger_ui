@@ -222,6 +222,11 @@ class _PeopleScreenState extends State<PeopleScreen> {
                     radius: 24,
                     backgroundImage: AssetImage(boy1),
                   ),
+                  Positioned(
+                    bottom: 0,
+                    left: 3,
+                    child: Container(),
+                  ),
                 ],
               ),
             )
