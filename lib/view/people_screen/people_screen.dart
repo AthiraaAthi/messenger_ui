@@ -210,10 +210,10 @@ class _PeopleScreenState extends State<PeopleScreen> {
             SizedBox(
               height: 30,
             ),
-            Text("RECENTLY ACTIVE",
-                style: TextStyle(fontSize: 20, color: grey)),
-            SizedBox(
-              height: 20,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("RECENTLY ACTIVE",
+                  style: TextStyle(fontSize: 18, color: Colors.grey[400])),
             ),
             ListTile(
               leading: Stack(
@@ -244,6 +244,8 @@ class _PeopleScreenState extends State<PeopleScreen> {
                   ),
                 ],
               ),
+              title: Text("Alex Volkov",
+                  style: TextStyle(fontSize: 19, fontWeight: FontWeight.w600)),
             )
           ],
         ),
