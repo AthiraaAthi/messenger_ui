@@ -246,6 +246,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
               ),
               title: Text("Alex Volkov",
                   style: TextStyle(fontSize: 19, fontWeight: FontWeight.w600)),
+              trailing: CircleAvatar(),
             )
           ],
         ),
