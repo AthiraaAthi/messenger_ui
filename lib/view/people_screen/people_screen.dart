@@ -265,6 +265,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
                     child: Container(
                       height: 16,
                       width: 50,
+                      padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
                     ),
                   ),
                 ],
