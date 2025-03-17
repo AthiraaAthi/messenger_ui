@@ -257,6 +257,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
                 children: [
                   CircleAvatar(
                     radius: 24,
+                    backgroundImage: AssetImage(boy2),
                   ),
                 ],
               ),
