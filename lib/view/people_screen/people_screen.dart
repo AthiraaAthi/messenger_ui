@@ -252,7 +252,9 @@ class _PeopleScreenState extends State<PeopleScreen> {
                 child: Image.asset(wave_icon),
               ),
             ),
-            ListTile()
+            ListTile(
+              leading: Stack(),
+            )
           ],
         ),
       ),
