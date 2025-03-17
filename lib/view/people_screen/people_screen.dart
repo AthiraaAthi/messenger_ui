@@ -254,7 +254,9 @@ class _PeopleScreenState extends State<PeopleScreen> {
             ),
             ListTile(
               leading: Stack(
-                children: [],
+                children: [
+                  CircleAvatar(),
+                ],
               ),
             )
           ],
