@@ -248,6 +248,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
                   style: TextStyle(fontSize: 19, fontWeight: FontWeight.w600)),
               trailing: CircleAvatar(
                 radius: 20,
+                backgroundColor: grey,
               ),
             )
           ],
