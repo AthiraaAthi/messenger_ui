@@ -295,7 +295,8 @@ class _PeopleScreenState extends State<PeopleScreen> {
                 backgroundColor: grey,
                 child: Image.asset(wave_icon),
               ),
-            )
+            ),
+            SizedBox()
           ],
         ),
       ),
