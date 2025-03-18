@@ -288,6 +288,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              trailing: CircleAvatar(),
             )
           ],
         ),
