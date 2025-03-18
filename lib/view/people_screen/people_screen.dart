@@ -187,9 +187,8 @@ class _PeopleScreenState extends State<PeopleScreen> {
                       bottom: 5,
                       right: 5,
                       child: CircleAvatar(
-                        radius: 6,
-                        backgroundColor: const Color.fromARGB(255, 46, 224, 52),
-                      ),
+                          radius: 6,
+                          backgroundColor: Colors.greenAccent.shade400),
                     ),
                   ]),
                   title: Text(
