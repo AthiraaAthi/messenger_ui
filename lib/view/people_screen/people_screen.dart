@@ -179,7 +179,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
                 child: ListTile(
                   leading: Stack(alignment: Alignment.bottomRight, children: [
                     CircleAvatar(
-                      radius: 30,
+                      radius: 25,
                       backgroundImage:
                           AssetImage(namesAndImageList[index]['image']!),
                     ),
@@ -187,7 +187,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
                       bottom: 5,
                       right: 5,
                       child: CircleAvatar(
-                        radius: 7,
+                        radius: 6,
                         backgroundColor: const Color.fromARGB(255, 46, 224, 52),
                       ),
                     ),
