@@ -290,6 +290,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
               ),
               trailing: CircleAvatar(
                 radius: 20,
+                backgroundColor: grey,
               ),
             )
           ],
