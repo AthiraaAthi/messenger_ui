@@ -283,6 +283,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
               ),
               title: Text(
                 "Rhys Larsen",
+                style: TextStyle(),
               ),
             )
           ],
