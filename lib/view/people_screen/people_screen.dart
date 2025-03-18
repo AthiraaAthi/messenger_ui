@@ -285,6 +285,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
                 "Rhys Larsen",
                 style: TextStyle(
                   fontSize: 19,
+                  fontWeight: FontWeight.w600,
                 ),
               ),
             )
