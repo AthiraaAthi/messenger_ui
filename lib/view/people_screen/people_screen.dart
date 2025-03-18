@@ -298,7 +298,8 @@ class _PeopleScreenState extends State<PeopleScreen> {
             ),
             SizedBox(
               height: 10,
-            )
+            ),
+            ListTile()
           ],
         ),
       ),
