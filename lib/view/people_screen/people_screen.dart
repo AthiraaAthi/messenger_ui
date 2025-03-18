@@ -259,7 +259,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
                 children: [
                   CircleAvatar(
                     radius: 24,
-                    backgroundImage: AssetImage(boy2),
+                    backgroundImage: AssetImage(profile),
                   ),
                   Positioned(
                     bottom: 0,
@@ -299,7 +299,16 @@ class _PeopleScreenState extends State<PeopleScreen> {
             SizedBox(
               height: 10,
             ),
-            ListTile()
+            ListTile(
+              leading: Stack(
+                children: [
+                  CircleAvatar(
+                    radius: 24,
+                    backgroundImage: AssetImage(boy3),
+                  ),
+                ],
+              ),
+            )
           ],
         ),
       ),
