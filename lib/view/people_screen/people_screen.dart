@@ -321,7 +321,10 @@ class _PeopleScreenState extends State<PeopleScreen> {
                   ),
                 ],
               ),
-              title: Text("Ryle Kincaid"),
+              title: Text(
+                "Ryle Kincaid",
+                style: TextStyle(),
+              ),
             )
           ],
         ),
