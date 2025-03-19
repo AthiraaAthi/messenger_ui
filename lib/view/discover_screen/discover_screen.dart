@@ -13,7 +13,11 @@ class DiscoverScreen extends StatelessWidget {
         backgroundColor: white,
         leading: Padding(
           padding: const EdgeInsets.all(5),
-          child: CircleAvatar(),
+          child: CircleAvatar(
+            backgroundImage: AssetImage(
+              profile,
+            ),
+          ),
         ),
       ),
     );
