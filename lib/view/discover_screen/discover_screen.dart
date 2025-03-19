@@ -8,7 +8,9 @@ class DiscoverScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: white,
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: white,
+      ),
     );
   }
 }
