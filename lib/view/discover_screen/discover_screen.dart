@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
+import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
 
 class DiscoverScreen extends StatelessWidget {
   const DiscoverScreen({super.key});
@@ -10,6 +11,9 @@ class DiscoverScreen extends StatelessWidget {
       backgroundColor: white,
       appBar: AppBar(
         backgroundColor: white,
+        leading: Padding(
+          padding: const EdgeInsets.all(5),
+        ),
       ),
     );
   }
