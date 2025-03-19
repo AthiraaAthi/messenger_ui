@@ -290,11 +290,6 @@ class _PeopleScreenState extends State<PeopleScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
-              trailing: CircleAvatar(
-                radius: 20,
-                backgroundColor: grey,
-                child: Image.asset(wave_icon),
-              ),
             ),
             SizedBox(
               height: 10,
@@ -328,6 +323,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              trailing: CircleAvatar(),
             )
           ],
         ),
