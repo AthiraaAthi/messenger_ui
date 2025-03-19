@@ -326,6 +326,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
               trailing: CircleAvatar(
                 radius: 20,
                 backgroundColor: grey,
+                child: Image.asset(wave_icon),
               ),
             )
           ],
