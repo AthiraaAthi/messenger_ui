@@ -17,6 +17,7 @@ class DiscoverScreen extends StatelessWidget {
             backgroundImage: AssetImage(
               profile,
             ),
+            radius: 20,
           ),
         ),
       ),
