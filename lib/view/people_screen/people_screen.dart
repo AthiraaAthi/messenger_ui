@@ -325,6 +325,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
                 "Ryle Kincaid",
                 style: TextStyle(
                   fontSize: 19,
+                  fontWeight: FontWeight.w600,
                 ),
               ),
             )
