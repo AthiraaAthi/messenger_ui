@@ -23,7 +23,7 @@ class DiscoverScreen extends StatelessWidget {
         ),
         title: Text(
           "Discover",
-          style: TextStyle(fontSize: 28, fontWeight: FontWeight.w600),
+          style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
         ),
       ),
     );
