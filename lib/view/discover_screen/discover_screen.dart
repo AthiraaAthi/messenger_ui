@@ -21,6 +21,7 @@ class DiscoverScreen extends StatelessWidget {
             backgroundColor: black,
           ),
         ),
+        title: Text(""),
       ),
     );
   }
