@@ -26,6 +26,7 @@ class DiscoverScreen extends StatelessWidget {
           style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
         ),
       ),
+      body: Scaffold(),
     );
   }
 }
