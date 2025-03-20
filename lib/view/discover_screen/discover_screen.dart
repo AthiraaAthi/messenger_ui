@@ -28,7 +28,15 @@ class DiscoverScreen extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Container(),
+          Container(
+            height: 40,
+            width: double.infinity,
+            padding: EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              color: grey,
+              borderRadius: BorderRadius.circular(10),
+            ),
+          ),
         ],
       ),
     );
