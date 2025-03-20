@@ -42,6 +42,12 @@ class DiscoverScreen extends StatelessWidget {
                   Icons.search,
                   color: Colors.grey,
                 ),
+                SizedBox(
+                  width: 10,
+                ),
+                Text(
+                  "Search",
+                ),
               ],
             ),
           ),
