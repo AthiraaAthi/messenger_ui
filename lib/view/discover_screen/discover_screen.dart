@@ -45,9 +45,8 @@ class DiscoverScreen extends StatelessWidget {
                 SizedBox(
                   width: 10,
                 ),
-                Text(
-                  "Search",
-                ),
+                Text("Search",
+                    style: TextStyle(color: Colors.grey, fontSize: 18)),
               ],
             ),
           ),
