@@ -67,7 +67,7 @@ class DiscoverScreen extends StatelessWidget {
                   child: Center(
                       child: Text(
                     "FOR YOU",
-                    style: TextStyle(),
+                    style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
                   )),
                 )
               ],
