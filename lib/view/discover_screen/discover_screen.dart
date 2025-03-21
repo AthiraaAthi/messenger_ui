@@ -52,6 +52,9 @@ class DiscoverScreen extends StatelessWidget {
                 ],
               ),
             ),
+            Row(
+              children: [Container()],
+            )
           ],
         ),
       ),
