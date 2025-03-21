@@ -16,3 +16,4 @@ const String apple = "assets/images/apple.png";
 const String samsung = "assets/images/samsung.png";
 const String airbnb = "assets/images/airbnb.png";
 const String microsoft = "assets/images/microsoft.png";
+const String insta = "assets/images/instagram.png";
