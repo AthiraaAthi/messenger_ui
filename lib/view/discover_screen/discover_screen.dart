@@ -59,7 +59,7 @@ class DiscoverScreen extends StatelessWidget {
               children: [
                 Container(
                   height: 50,
-                  width: 200,
+                  width: 180,
                   decoration: BoxDecoration(
                     color: grey,
                     borderRadius: BorderRadius.circular(10),
@@ -70,7 +70,14 @@ class DiscoverScreen extends StatelessWidget {
                     style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
                   )),
                 ),
-                Container(),
+                Container(
+                  height: 50,
+                  width: 180,
+                  decoration: BoxDecoration(
+                    color: grey,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                ),
               ],
             )
           ],
