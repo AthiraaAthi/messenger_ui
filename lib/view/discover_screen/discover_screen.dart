@@ -56,6 +56,7 @@ class DiscoverScreen extends StatelessWidget {
               height: 20,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
                   height: 50,
@@ -74,7 +75,6 @@ class DiscoverScreen extends StatelessWidget {
                   height: 50,
                   width: 180,
                   decoration: BoxDecoration(
-                    color: grey,
                     borderRadius: BorderRadius.circular(10),
                   ),
                 ),
