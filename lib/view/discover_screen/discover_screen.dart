@@ -64,7 +64,11 @@ class DiscoverScreen extends StatelessWidget {
                     color: grey,
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  child: Text("FOR YOU"),
+                  child: Center(
+                      child: Text(
+                    "FOR YOU",
+                    style: TextStyle(),
+                  )),
                 )
               ],
             )
