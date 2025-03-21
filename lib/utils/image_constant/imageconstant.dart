@@ -19,3 +19,4 @@ const String microsoft = "assets/images/microsoft.png";
 const String insta = "assets/images/instagram.png";
 const String disney = "assets/images/disnep.png";
 const String facebook = "assets/images/fb.png";
+const String mcDonalds = "assets/images/mcDonalds.png";
