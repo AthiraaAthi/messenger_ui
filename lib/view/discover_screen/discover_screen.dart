@@ -52,8 +52,20 @@ class DiscoverScreen extends StatelessWidget {
                 ],
               ),
             ),
+            SizedBox(
+              height: 20,
+            ),
             Row(
-              children: [Container()],
+              children: [
+                Container(
+                  height: 50,
+                  width: 200,
+                  decoration: BoxDecoration(
+                    color: grey,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                )
+              ],
             )
           ],
         ),
