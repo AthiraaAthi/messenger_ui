@@ -13,3 +13,4 @@ const String people4 = "assets/images/people4.png";
 const String people5 = "assets/images/people5.png";
 const String people6 = "assets/images/people6.png";
 const String apple = "assets/images/apple.png";
+const String samsung = "assets/images/samsung.png";
