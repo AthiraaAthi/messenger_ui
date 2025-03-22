@@ -110,7 +110,10 @@ class DiscoverScreen extends StatelessWidget {
                 SizedBox(
                   width: 20,
                 ),
-                CircleAvatar(),
+                CircleAvatar(
+                  radius: 35,
+                  backgroundColor: white,
+                ),
               ],
             )
           ],
