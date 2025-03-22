@@ -90,7 +90,10 @@ class DiscoverScreen extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            Text("Recent")
+            Text(
+              "Recent",
+              style: TextStyle(),
+            )
           ],
         ),
       ),
