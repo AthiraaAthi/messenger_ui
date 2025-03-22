@@ -80,6 +80,7 @@ class DiscoverScreen extends StatelessWidget {
                   child: Center(
                       child: Text(
                     "BUSINESS",
+                    style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
                   )),
                 ),
               ],
