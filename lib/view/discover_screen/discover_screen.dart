@@ -93,7 +93,10 @@ class DiscoverScreen extends StatelessWidget {
             Text(
               "Recent",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-            )
+            ),
+            SizedBox(
+              height: 20,
+            ),
           ],
         ),
       ),
