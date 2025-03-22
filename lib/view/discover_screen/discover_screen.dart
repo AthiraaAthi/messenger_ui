@@ -111,8 +111,12 @@ class DiscoverScreen extends StatelessWidget {
                   width: 20,
                 ),
                 CircleAvatar(
-                  radius: 35,
+                  radius: 32,
                   backgroundColor: white,
+                  backgroundImage: Image.asset(
+                    samsung,
+                    fit: BoxFit.cover,
+                  ).image,
                 ),
               ],
             )
