@@ -97,13 +97,17 @@ class DiscoverScreen extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            CircleAvatar(
-              radius: 35,
-              backgroundColor: white,
-              backgroundImage: Image.asset(
-                apple,
-                fit: BoxFit.cover,
-              ).image,
+            Row(
+              children: [
+                CircleAvatar(
+                  radius: 35,
+                  backgroundColor: white,
+                  backgroundImage: Image.asset(
+                    apple,
+                    fit: BoxFit.cover,
+                  ).image,
+                ),
+              ],
             )
           ],
         ),
