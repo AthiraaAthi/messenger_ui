@@ -118,6 +118,9 @@ class DiscoverScreen extends StatelessWidget {
                     fit: BoxFit.cover,
                   ).image,
                 ),
+                SizedBox(
+                  width: 20,
+                ),
               ],
             )
           ],
