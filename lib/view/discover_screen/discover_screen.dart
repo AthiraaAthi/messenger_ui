@@ -62,11 +62,11 @@ class DiscoverScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
-                  height: 50,
+                  height: 30,
                   width: 180,
                   decoration: BoxDecoration(
                     color: grey,
-                    borderRadius: BorderRadius.circular(10),
+                    borderRadius: BorderRadius.circular(20),
                   ),
                   child: Center(
                       child: Text(
@@ -75,10 +75,10 @@ class DiscoverScreen extends StatelessWidget {
                   )),
                 ),
                 Container(
-                  height: 50,
+                  height: 30,
                   width: 180,
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
+                    borderRadius: BorderRadius.circular(20),
                   ),
                   child: Center(
                       child: Text(
@@ -110,7 +110,14 @@ class DiscoverScreen extends StatelessWidget {
                 ),
                 DiscoverBrandWidget(image: airbnb, brandName: "AirBnb")
               ],
-            )
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Text(
+              "More",
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            ),
           ],
         ),
       ),
