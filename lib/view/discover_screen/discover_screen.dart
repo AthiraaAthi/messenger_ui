@@ -104,14 +104,7 @@ class DiscoverScreen extends StatelessWidget {
                 SizedBox(
                   width: 20,
                 ),
-                CircleAvatar(
-                  radius: 32,
-                  backgroundColor: white,
-                  backgroundImage: Image.asset(
-                    samsung,
-                    fit: BoxFit.cover,
-                  ).image,
-                ),
+                DiscoverBrandWidget(image: samsung, brandName: "Samsung"),
                 SizedBox(
                   width: 20,
                 ),
