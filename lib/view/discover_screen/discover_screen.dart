@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
+import 'package:messenger_ui/view/discover_screen/discover_brand.dart';
 
 class DiscoverScreen extends StatelessWidget {
   const DiscoverScreen({super.key});
@@ -99,14 +100,7 @@ class DiscoverScreen extends StatelessWidget {
             ),
             Row(
               children: [
-                CircleAvatar(
-                  radius: 35,
-                  backgroundColor: white,
-                  backgroundImage: Image.asset(
-                    apple,
-                    fit: BoxFit.cover,
-                  ).image,
-                ),
+                DiscoverBrandWidget(image: apple, brandName: "Apple"),
                 SizedBox(
                   width: 20,
                 ),
