@@ -7,6 +7,8 @@ class DiscoverBrandWidget extends StatelessWidget {
   final String brandName;
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Column(
+      children: [],
+    );
   }
 }
