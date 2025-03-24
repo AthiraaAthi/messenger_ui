@@ -108,14 +108,7 @@ class DiscoverScreen extends StatelessWidget {
                 SizedBox(
                   width: 20,
                 ),
-                CircleAvatar(
-                  radius: 32,
-                  backgroundColor: white,
-                  backgroundImage: Image.asset(
-                    airbnb,
-                    fit: BoxFit.cover,
-                  ).image,
-                ),
+                DiscoverBrandWidget(image: airbnb, brandName: "AirBnb")
               ],
             )
           ],
