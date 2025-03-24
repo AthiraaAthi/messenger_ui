@@ -15,6 +15,10 @@ class DiscoverBrandWidget extends StatelessWidget {
           backgroundColor: white,
           backgroundImage: AssetImage(image),
         ),
+        SizedBox(height: 5),
+        Text(
+          brandName,
+        ),
       ],
     );
   }
