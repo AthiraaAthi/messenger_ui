@@ -118,6 +118,10 @@ class DiscoverScreen extends StatelessWidget {
               "More",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
+            SizedBox(
+              height: 20,
+            ),
+            ListTile()
           ],
         ),
       ),
