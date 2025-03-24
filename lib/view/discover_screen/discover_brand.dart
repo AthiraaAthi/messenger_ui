@@ -18,6 +18,7 @@ class DiscoverBrandWidget extends StatelessWidget {
         SizedBox(height: 5),
         Text(
           brandName,
+          style: TextStyle(fontSize: 16, color: Colors.grey[700]),
         ),
       ],
     );
