@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 
 class DiscoverBrandWidget extends StatelessWidget {
   const DiscoverBrandWidget(
@@ -8,7 +9,13 @@ class DiscoverBrandWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [],
+      children: [
+        CircleAvatar(
+          radius: 30,
+          backgroundColor: white,
+          backgroundImage: AssetImage(image),
+        ),
+      ],
     );
   }
 }
