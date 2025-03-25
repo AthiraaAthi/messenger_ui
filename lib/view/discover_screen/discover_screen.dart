@@ -126,7 +126,13 @@ class DiscoverScreen extends StatelessWidget {
               width: double.infinity,
               decoration: BoxDecoration(color: grey),
               child: Row(
-                children: [],
+                children: [
+                  CircleAvatar(
+                    radius: 30,
+                    backgroundColor: black,
+                    backgroundImage: AssetImage(microsoft),
+                  ),
+                ],
               ),
             )
           ],
