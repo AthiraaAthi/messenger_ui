@@ -133,10 +133,12 @@ class DiscoverScreen extends StatelessWidget {
                     backgroundImage: AssetImage(microsoft),
                   ),
                   Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text("Microsoft",
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.w700)),
+                      Text("Science, Technology & Engineering"),
                     ],
                   ),
                 ],
