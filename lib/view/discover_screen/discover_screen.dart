@@ -124,6 +124,7 @@ class DiscoverScreen extends StatelessWidget {
             ListTile(
               leading: CircleAvatar(
                 radius: 20,
+                backgroundImage: AssetImage(microsoft),
               ),
             )
           ],
