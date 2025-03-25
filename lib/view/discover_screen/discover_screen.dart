@@ -124,7 +124,10 @@ class DiscoverScreen extends StatelessWidget {
             Container(
               height: 100,
               width: double.infinity,
-              decoration: BoxDecoration(),
+              decoration: BoxDecoration(color: grey),
+              child: Row(
+                children: [],
+              ),
             )
           ],
         ),
