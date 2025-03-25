@@ -121,18 +121,10 @@ class DiscoverScreen extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            ListTile(
-              leading: CircleAvatar(
-                radius: 20,
-                backgroundImage: AssetImage(microsoft),
-              ),
-              title: Text("Microsoft",
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700)),
-              subtitle: Column(
-                children: [
-                  Text(""),
-                ],
-              ),
+            Container(
+              height: 100,
+              width: double.infinity,
+              decoration: BoxDecoration(),
             )
           ],
         ),
