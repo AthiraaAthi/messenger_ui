@@ -139,6 +139,7 @@ class DiscoverScreen extends StatelessWidget {
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.w700)),
                       Text("Science, Technology & Engineering"),
+                      Text("Our mission is to empower every person…")
                     ],
                   ),
                 ],
