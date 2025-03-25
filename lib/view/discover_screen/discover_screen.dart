@@ -122,7 +122,9 @@ class DiscoverScreen extends StatelessWidget {
               height: 20,
             ),
             ListTile(
-              leading: CircleAvatar(),
+              leading: CircleAvatar(
+                radius: 20,
+              ),
             )
           ],
         ),
