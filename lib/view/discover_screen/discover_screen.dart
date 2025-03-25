@@ -138,8 +138,15 @@ class DiscoverScreen extends StatelessWidget {
                       Text("Microsoft",
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.w700)),
-                      Text("Science, Technology & Engineering"),
-                      Text("Our mission is to empower every person…")
+                      Text(
+                        "Science, Technology & Engineering",
+                        textAlign: TextAlign.justify,
+                        style: TextStyle(letterSpacing: 1.5),
+                      ),
+                      Text(
+                        "Our mission is to empower every person…",
+                        textAlign: TextAlign.justify,
+                      )
                     ],
                   ),
                 ],
