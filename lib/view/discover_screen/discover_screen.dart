@@ -128,7 +128,11 @@ class DiscoverScreen extends StatelessWidget {
               ),
               title: Text("Microsoft",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700)),
-              subtitle: Text(""),
+              subtitle: Column(
+                children: [
+                  Text(""),
+                ],
+              ),
             )
           ],
         ),
