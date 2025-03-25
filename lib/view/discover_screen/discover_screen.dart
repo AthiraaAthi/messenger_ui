@@ -126,7 +126,8 @@ class DiscoverScreen extends StatelessWidget {
                 radius: 20,
                 backgroundImage: AssetImage(microsoft),
               ),
-              title: Text("Microsoft", style: TextStyle()),
+              title: Text("Microsoft",
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700)),
             )
           ],
         ),
