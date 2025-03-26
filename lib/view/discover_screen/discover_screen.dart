@@ -24,6 +24,8 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
     "Our mission is to empower every person…",
     "Bringing you closer to the people and things you love.",
     "Disney magic right at your fingertips",
+    "Welcome to the Facebook chat bot. Use it to get the latest news,and more.",
+    "Home of Serving iconic burgers, fries, and happy moments."
   ];
   @override
   Widget build(BuildContext context) {
