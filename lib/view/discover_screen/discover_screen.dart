@@ -16,6 +16,8 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
   List<String> subtitle = [
     "Science, Technology & Engineering",
     "Business",
+    "Brand",
+    "Website",
   ];
   @override
   Widget build(BuildContext context) {
