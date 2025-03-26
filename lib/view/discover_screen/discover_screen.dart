@@ -122,15 +122,14 @@ class DiscoverScreen extends StatelessWidget {
               height: 20,
             ),
             Container(
-              height: 100,
+              height: 80,
               width: double.infinity,
-              decoration: BoxDecoration(color: grey),
               child: Row(
                 children: [
                   CircleAvatar(
                     radius: 30,
-                    backgroundColor: black,
                     backgroundImage: AssetImage(microsoft),
+                    backgroundColor: white,
                   ),
                   SizedBox(
                     width: 10,
@@ -149,8 +148,8 @@ class DiscoverScreen extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                           textAlign: TextAlign.justify,
                           style: TextStyle(
-                            letterSpacing: 1.5,
-                            fontSize: 14,
+                            letterSpacing: 1.2,
+                            fontSize: 15,
                           ),
                         ),
                       ),
@@ -162,7 +161,7 @@ class DiscoverScreen extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                             letterSpacing: 1,
-                            fontSize: 14,
+                            fontSize: 15,
                           ),
                         ),
                       )
