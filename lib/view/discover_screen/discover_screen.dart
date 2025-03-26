@@ -15,6 +15,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
   List<String> brandImage = [apple, samsung, airbnb];
   List<String> subtitle = [
     "Science, Technology & Engineering",
+    "Business",
   ];
   @override
   Widget build(BuildContext context) {
