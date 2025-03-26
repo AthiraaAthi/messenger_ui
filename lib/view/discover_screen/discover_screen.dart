@@ -3,9 +3,14 @@ import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
 import 'package:messenger_ui/view/discover_screen/discover_brand.dart';
 
-class DiscoverScreen extends StatelessWidget {
+class DiscoverScreen extends StatefulWidget {
   const DiscoverScreen({super.key});
 
+  @override
+  State<DiscoverScreen> createState() => _DiscoverScreenState();
+}
+
+class _DiscoverScreenState extends State<DiscoverScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
