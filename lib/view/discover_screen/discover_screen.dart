@@ -20,7 +20,9 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
     "Website",
     "Burget Restaurant Deals"
   ];
-  List<String> brandDescription = [];
+  List<String> brandDescription = [
+    "Our mission is to empower every person…",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
