@@ -18,6 +18,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
     "Business",
     "Brand",
     "Website",
+    "Burget Restaurant Deals"
   ];
   @override
   Widget build(BuildContext context) {
