@@ -22,6 +22,8 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
   ];
   List<String> brandDescription = [
     "Our mission is to empower every person…",
+    "Bringing you closer to the people and things you love.",
+    "Disney magic right at your fingertips",
   ];
   @override
   Widget build(BuildContext context) {
