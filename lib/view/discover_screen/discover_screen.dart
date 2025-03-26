@@ -11,7 +11,9 @@ class DiscoverScreen extends StatefulWidget {
 }
 
 class _DiscoverScreenState extends State<DiscoverScreen> {
-  List<String> brandName = [];
+  List<String> brandName = [
+    "Apple",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
