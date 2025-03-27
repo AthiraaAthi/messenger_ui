@@ -150,7 +150,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               SizedBox(
-                height: 20,
+                height: 10,
               ),
               ListView.builder(
                 physics: NeverScrollableScrollPhysics(),
