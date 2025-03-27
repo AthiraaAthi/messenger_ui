@@ -17,6 +17,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
     "Microsoft",
     "Instagram",
     "Disney",
+    "Facebook",
   ];
   List<String> brandSubtitle = [
     "Science, Technology & Engineering",
