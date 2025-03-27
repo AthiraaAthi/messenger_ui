@@ -173,7 +173,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          Text("Microsoft",
+                          Text(AppName[index],
                               style: TextStyle(
                                   fontSize: 18, fontWeight: FontWeight.w700)),
                           SizedBox(
