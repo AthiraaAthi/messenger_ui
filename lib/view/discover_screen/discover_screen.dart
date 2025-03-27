@@ -21,14 +21,14 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
     "McDonald's"
   ];
   List<String> AppImage = [];
-  List<String> brandSubtitle = [
+  List<String> AppSubtitle = [
     "Science, Technology & Engineering",
     "Business",
     "Brand",
     "Website",
     "Burget Restaurant Deals"
   ];
-  List<String> brandDescription = [
+  List<String> AppDescription = [
     "Our mission is to empower every person…",
     "Bringing you closer to the people and things you love.",
     "Disney magic right at your fingertips",
