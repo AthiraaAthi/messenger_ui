@@ -20,6 +20,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
     "Facebook",
     "McDonald's"
   ];
+  List<String> AppImage = [];
   List<String> brandSubtitle = [
     "Science, Technology & Engineering",
     "Business",
@@ -163,7 +164,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                     children: [
                       CircleAvatar(
                         radius: 30,
-                        backgroundImage: AssetImage(microsoft),
+                        backgroundImage: AssetImage(brandImage[index]),
                         backgroundColor: white,
                       ),
                       SizedBox(
