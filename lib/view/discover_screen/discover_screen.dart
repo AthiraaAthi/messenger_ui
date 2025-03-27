@@ -16,6 +16,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
   List<String> AppName = [
     "Microsoft",
     "Instagram",
+    "Disney",
   ];
   List<String> brandSubtitle = [
     "Science, Technology & Engineering",
