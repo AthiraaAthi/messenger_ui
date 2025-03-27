@@ -13,7 +13,9 @@ class DiscoverScreen extends StatefulWidget {
 class _DiscoverScreenState extends State<DiscoverScreen> {
   List<String> brandName = ["Apple", "Samsung", "AirBnb"];
   List<String> brandImage = [apple, samsung, airbnb];
-  List<String> companyName = [];
+  List<String> companyName = [
+    "Microsoft",
+  ];
   List<String> brandSubtitle = [
     "Science, Technology & Engineering",
     "Business",
