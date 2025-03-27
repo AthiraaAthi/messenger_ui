@@ -142,53 +142,55 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
             SizedBox(
               height: 20,
             ),
-            Container(
-              height: 80,
-              width: double.infinity,
-              child: Row(
-                children: [
-                  CircleAvatar(
-                    radius: 30,
-                    backgroundImage: AssetImage(microsoft),
-                    backgroundColor: white,
-                  ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      Text("Microsoft",
-                          style: TextStyle(
-                              fontSize: 18, fontWeight: FontWeight.w700)),
-                      SizedBox(
-                        width: 300,
-                        child: Text(
-                          "Science, Technology & Engineering",
-                          overflow: TextOverflow.ellipsis,
-                          textAlign: TextAlign.justify,
-                          style: TextStyle(
-                            letterSpacing: 1.2,
-                            fontSize: 15,
+            ListView.builder(
+              itemBuilder: (context, index) => Container(
+                height: 80,
+                width: double.infinity,
+                child: Row(
+                  children: [
+                    CircleAvatar(
+                      radius: 30,
+                      backgroundImage: AssetImage(microsoft),
+                      backgroundColor: white,
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Text("Microsoft",
+                            style: TextStyle(
+                                fontSize: 18, fontWeight: FontWeight.w700)),
+                        SizedBox(
+                          width: 300,
+                          child: Text(
+                            "Science, Technology & Engineering",
+                            overflow: TextOverflow.ellipsis,
+                            textAlign: TextAlign.justify,
+                            style: TextStyle(
+                              letterSpacing: 1.2,
+                              fontSize: 15,
+                            ),
                           ),
                         ),
-                      ),
-                      SizedBox(
-                        width: 300,
-                        child: Text(
-                          "Our mission is to empower every person…",
-                          textAlign: TextAlign.justify,
-                          overflow: TextOverflow.ellipsis,
-                          style: TextStyle(
-                            letterSpacing: 1,
-                            fontSize: 15,
+                        SizedBox(
+                          width: 300,
+                          child: Text(
+                            "Our mission is to empower every person…",
+                            textAlign: TextAlign.justify,
+                            overflow: TextOverflow.ellipsis,
+                            style: TextStyle(
+                              letterSpacing: 1,
+                              fontSize: 15,
+                            ),
                           ),
-                        ),
-                      )
-                    ],
-                  ),
-                ],
+                        )
+                      ],
+                    ),
+                  ],
+                ),
               ),
             )
           ],
