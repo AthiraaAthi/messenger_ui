@@ -143,6 +143,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
               height: 20,
             ),
             ListView.builder(
+              shrinkWrap: true,
               itemBuilder: (context, index) => Container(
                 height: 80,
                 width: double.infinity,
