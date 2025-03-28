@@ -192,7 +192,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                           SizedBox(
                             width: 300,
                             child: Text(
-                              "Our mission is to empower every person…",
+                              AppDescription[index],
                               textAlign: TextAlign.justify,
                               overflow: TextOverflow.ellipsis,
                               style: TextStyle(
