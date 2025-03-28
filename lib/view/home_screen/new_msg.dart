@@ -8,7 +8,7 @@ class NewMessageScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("New Message"),
+        title: Text("New Message", style: TextStyle()),
       ),
     );
   }
