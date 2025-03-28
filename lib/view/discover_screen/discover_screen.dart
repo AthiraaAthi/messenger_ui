@@ -180,7 +180,7 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                           SizedBox(
                             width: 300,
                             child: Text(
-                              "Science, Technology & Engineering",
+                              AppSubtitle[index],
                               overflow: TextOverflow.ellipsis,
                               textAlign: TextAlign.justify,
                               style: TextStyle(
