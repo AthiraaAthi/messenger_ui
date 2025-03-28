@@ -13,6 +13,7 @@ class NewMessageScreen extends StatelessWidget {
               fontSize: 18,
               fontWeight: FontWeight.bold,
             )),
+        leading: Text("Cancel"),
       ),
     );
   }
