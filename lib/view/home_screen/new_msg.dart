@@ -7,16 +7,21 @@ class NewMessageScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        toolbarHeight: 70,
         centerTitle: true,
         title: Text("New Message",
             style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.bold,
             )),
-        leading: Text("Cancel",
-            style: TextStyle(
-              fontSize: 18,
-            )),
+        leading: Padding(
+          padding: const EdgeInsets.only(
+            top: 30,
+            left: 5,
+          ),
+          child: Text("Cancel",
+              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400)),
+        ),
       ),
     );
   }
