@@ -19,8 +19,13 @@ class NewMessageScreen extends StatelessWidget {
             top: 30,
             left: 5,
           ),
-          child: Text("Cancel",
-              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400)),
+          child: InkWell(
+            onTap: () {
+              Navigator.pop(context);
+            },
+            child: Text("Cancel",
+                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400)),
+          ),
         ),
       ),
     );
