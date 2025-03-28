@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
+import 'package:messenger_ui/view/home_screen/new_msg.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -69,7 +70,12 @@ class _HomeScreenState extends State<HomeScreen> {
             backgroundColor: grey,
             radius: 20,
             child: IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => NewMessageScreen()));
+                },
                 icon: Icon(
                   Icons.edit_square,
                   color: black,
