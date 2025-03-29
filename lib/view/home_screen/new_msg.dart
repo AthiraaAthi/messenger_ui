@@ -42,9 +42,9 @@ class NewMessageScreen extends StatelessWidget {
             ),
             child: TextField(
               decoration: InputDecoration(
-                border: InputBorder.none,
-                prefixText: "To :  ",
-              ),
+                  border: InputBorder.none,
+                  prefixText: "To :  ",
+                  prefixStyle: TextStyle()),
             ),
           ),
         ],
