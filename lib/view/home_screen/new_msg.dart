@@ -32,6 +32,7 @@ class NewMessageScreen extends StatelessWidget {
         children: [
           Container(
             height: 40,
+            width: double.infinity,
           ),
         ],
       ),
