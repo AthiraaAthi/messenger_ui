@@ -37,7 +37,9 @@ class NewMessageScreen extends StatelessWidget {
               color: Colors.grey[200],
             ),
             child: Row(
-              children: [],
+              children: [
+                Text("To :", style: TextStyle()),
+              ],
             ),
           ),
         ],
