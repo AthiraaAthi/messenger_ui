@@ -31,6 +31,10 @@ class NewMessageScreen extends StatelessWidget {
       body: Column(
         children: [
           Container(
+            padding: const EdgeInsets.only(
+              left: 20,
+              right: 20,
+            ),
             height: 50,
             width: double.infinity,
             decoration: BoxDecoration(
@@ -42,7 +46,6 @@ class NewMessageScreen extends StatelessWidget {
                     style: TextStyle(
                       color: Colors.grey,
                       fontSize: 16,
-                      fontWeight: FontWeight.w400,
                     )),
               ],
             ),
