@@ -40,7 +40,9 @@ class NewMessageScreen extends StatelessWidget {
             decoration: BoxDecoration(
               color: Colors.grey[200],
             ),
-            child: TextField(),
+            child: TextField(
+              decoration: InputDecoration(),
+            ),
           ),
         ],
       ),
