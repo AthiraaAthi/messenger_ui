@@ -29,7 +29,11 @@ class NewMessageScreen extends StatelessWidget {
         ),
       ),
       body: Column(
-        children: [Container()],
+        children: [
+          Container(
+            height: 40,
+          ),
+        ],
       ),
     );
   }
