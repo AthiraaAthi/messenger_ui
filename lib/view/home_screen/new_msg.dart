@@ -31,10 +31,13 @@ class NewMessageScreen extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            height: 40,
+            height: 50,
             width: double.infinity,
             decoration: BoxDecoration(
               color: Colors.grey[200],
+            ),
+            child: Row(
+              children: [],
             ),
           ),
         ],
