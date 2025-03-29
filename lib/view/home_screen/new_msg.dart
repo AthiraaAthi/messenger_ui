@@ -40,15 +40,7 @@ class NewMessageScreen extends StatelessWidget {
             decoration: BoxDecoration(
               color: Colors.grey[200],
             ),
-            child: Row(
-              children: [
-                Text("To :",
-                    style: TextStyle(
-                      color: Colors.grey,
-                      fontSize: 16,
-                    )),
-              ],
-            ),
+            child: TextField(),
           ),
         ],
       ),
