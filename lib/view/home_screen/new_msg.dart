@@ -44,7 +44,10 @@ class NewMessageScreen extends StatelessWidget {
               decoration: InputDecoration(
                   border: InputBorder.none,
                   prefixText: "To :  ",
-                  prefixStyle: TextStyle()),
+                  prefixStyle: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 16,
+                  )),
             ),
           ),
         ],
