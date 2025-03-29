@@ -41,7 +41,9 @@ class NewMessageScreen extends StatelessWidget {
               color: Colors.grey[200],
             ),
             child: TextField(
-              decoration: InputDecoration(),
+              decoration: InputDecoration(
+                border: InputBorder.none,
+              ),
             ),
           ),
         ],
