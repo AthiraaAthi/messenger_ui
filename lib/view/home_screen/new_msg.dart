@@ -28,6 +28,9 @@ class NewMessageScreen extends StatelessWidget {
           ),
         ),
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
