@@ -53,6 +53,9 @@ class NewMessageScreen extends StatelessWidget {
           ListTile(
             leading: CircleAvatar(
               radius: 25,
+              child: Icon(
+                Icons.group,
+              ),
             ),
           )
         ],
