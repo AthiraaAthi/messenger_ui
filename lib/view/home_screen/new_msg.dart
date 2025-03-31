@@ -55,6 +55,7 @@ class NewMessageScreen extends StatelessWidget {
               radius: 25,
               child: Icon(
                 Icons.group,
+                size: 30,
               ),
             ),
           )
