@@ -50,6 +50,7 @@ class NewMessageScreen extends StatelessWidget {
                   )),
             ),
           ),
+          ListTile()
         ],
       ),
     );
