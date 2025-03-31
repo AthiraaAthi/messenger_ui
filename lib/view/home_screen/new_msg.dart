@@ -66,10 +66,12 @@ class NewMessageScreen extends StatelessWidget {
                   fontSize: 18,
                   fontWeight: FontWeight.w600,
                 )),
-            trailing: Icon(
-              Icons.keyboard_arrow_right,
-              color: Colors.grey,
-              size: 28,
+            trailing: InkWell(
+              child: Icon(
+                Icons.keyboard_arrow_right,
+                color: Colors.grey,
+                size: 28,
+              ),
             ),
           )
         ],
