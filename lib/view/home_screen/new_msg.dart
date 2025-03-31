@@ -69,6 +69,7 @@ class NewMessageScreen extends StatelessWidget {
             trailing: Icon(
               Icons.keyboard_arrow_right,
               color: Colors.grey,
+              size: 28,
             ),
           )
         ],
