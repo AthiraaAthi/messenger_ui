@@ -29,6 +29,8 @@ class NewMessageScreen extends StatelessWidget {
         ),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
             padding: const EdgeInsets.only(
@@ -73,7 +75,8 @@ class NewMessageScreen extends StatelessWidget {
                 size: 28,
               ),
             ),
-          )
+          ),
+          Text("Recents")
         ],
       ),
     );
