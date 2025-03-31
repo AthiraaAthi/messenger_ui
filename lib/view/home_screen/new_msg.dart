@@ -61,7 +61,10 @@ class NewMessageScreen extends StatelessWidget {
                 size: 22,
               ),
             ),
-            title: Text("Create a New Group", style: TextStyle()),
+            title: Text("Create a New Group",
+                style: TextStyle(
+                  fontSize: 18,
+                )),
           )
         ],
       ),
