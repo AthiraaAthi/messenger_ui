@@ -84,6 +84,7 @@ class NewMessageScreen extends StatelessWidget {
             style: TextStyle(
               color: Colors.grey,
               fontSize: 16,
+              fontWeight: FontWeight.w400,
             ),
           )
         ],
