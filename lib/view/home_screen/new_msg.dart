@@ -93,7 +93,9 @@ class NewMessageScreen extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          ListTile()
+          ListTile(
+            leading: CircleAvatar(),
+          )
         ],
       ),
     );
