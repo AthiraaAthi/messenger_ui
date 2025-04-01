@@ -104,6 +104,7 @@ class NewMessageScreen extends StatelessWidget {
               "Ava Chen",
               style: TextStyle(
                 fontSize: 19,
+                fontWeight: FontWeight.w600,
               ),
             ),
           )
