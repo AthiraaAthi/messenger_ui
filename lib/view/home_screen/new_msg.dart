@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
 
 class NewMessageScreen extends StatelessWidget {
   const NewMessageScreen({super.key});
@@ -96,6 +97,7 @@ class NewMessageScreen extends StatelessWidget {
           ListTile(
             leading: CircleAvatar(
               radius: 25,
+              backgroundImage: AssetImage(people1),
             ),
           )
         ],
