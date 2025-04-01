@@ -79,12 +79,15 @@ class NewMessageScreen extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          Text(
-            "Recents",
-            style: TextStyle(
-              color: Colors.grey,
-              fontSize: 16,
-              fontWeight: FontWeight.w400,
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              "Recents",
+              style: TextStyle(
+                color: Colors.grey,
+                fontSize: 18,
+                fontWeight: FontWeight.w600,
+              ),
             ),
           ),
           SizedBox(
