@@ -99,7 +99,7 @@ class NewMessageScreen extends StatelessWidget {
               radius: 25,
               backgroundImage: AssetImage(people1),
             ),
-            title: Text(""),
+            title: Text("Ava Chen"),
           )
         ],
       ),
