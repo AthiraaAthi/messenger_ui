@@ -81,7 +81,9 @@ class NewMessageScreen extends StatelessWidget {
           ),
           Text(
             "Recents",
-            style: TextStyle(),
+            style: TextStyle(
+              color: Colors.grey,
+            ),
           )
         ],
       ),
