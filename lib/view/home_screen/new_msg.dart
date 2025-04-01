@@ -45,8 +45,8 @@ class NewMessageScreen extends StatelessWidget {
             child: TextField(
               decoration: InputDecoration(
                   border: InputBorder.none,
-                  prefixText: "To :  ",
-                  prefixStyle: TextStyle(
+                  hintText: "To :  ",
+                  hintStyle: TextStyle(
                     color: Colors.grey,
                     fontSize: 16,
                   )),
