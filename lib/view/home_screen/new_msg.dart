@@ -86,7 +86,10 @@ class NewMessageScreen extends StatelessWidget {
               fontSize: 16,
               fontWeight: FontWeight.w400,
             ),
-          )
+          ),
+          SizedBox(
+            height: 10,
+          ),
         ],
       ),
     );
