@@ -20,6 +20,7 @@ class _NewMessageScreenState extends State<NewMessageScreen> {
   ];
   List<String> images = [
     people1,
+    people2,
   ];
   @override
   Widget build(BuildContext context) {
