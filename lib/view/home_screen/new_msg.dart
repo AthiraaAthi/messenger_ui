@@ -10,7 +10,9 @@ class NewMessageScreen extends StatefulWidget {
 }
 
 class _NewMessageScreenState extends State<NewMessageScreen> {
-  List<String> names = [];
+  List<String> names = [
+    "Ava Chen",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
