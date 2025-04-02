@@ -13,11 +13,12 @@ class _NewMessageScreenState extends State<NewMessageScreen> {
   List<String> names = [
     "Ava Chen",
     "Bridget von Ascheberg",
-    "Jules Ambrose",
+    "James",
     "Stella Alonso",
     "Vivian Lau",
-    "Isabella Valencia",
+    "Atlas Corrigon",
   ];
+  List<String> images = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
