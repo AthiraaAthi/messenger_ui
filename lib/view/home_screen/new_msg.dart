@@ -2,9 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
 
-class NewMessageScreen extends StatelessWidget {
+class NewMessageScreen extends StatefulWidget {
   const NewMessageScreen({super.key});
 
+  @override
+  State<NewMessageScreen> createState() => _NewMessageScreenState();
+}
+
+class _NewMessageScreenState extends State<NewMessageScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
