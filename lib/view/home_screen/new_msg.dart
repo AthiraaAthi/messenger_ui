@@ -13,6 +13,8 @@ class _NewMessageScreenState extends State<NewMessageScreen> {
   List<String> names = [
     "Ava Chen",
     "Bridget von Ascheberg",
+    "Jules Ambrose",
+    "Stella Alonso",
   ];
   @override
   Widget build(BuildContext context) {
