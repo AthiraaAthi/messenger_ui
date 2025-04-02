@@ -119,16 +119,22 @@ class _NewMessageScreenState extends State<NewMessageScreen> {
           ListView.builder(
             itemCount: names.length,
             shrinkWrap: true,
-            itemBuilder: (context, index) => ListTile(
-              leading: CircleAvatar(
-                radius: 25,
-                backgroundImage: AssetImage(people1),
-              ),
-              title: Text(
-                "Ava Chen",
-                style: TextStyle(
-                    fontSize: 19, fontWeight: FontWeight.w600, color: black),
-              ),
+            itemBuilder: (context, index) => Column(
+              children: [
+                ListTile(
+                  leading: CircleAvatar(
+                    radius: 25,
+                    backgroundImage: AssetImage(people1),
+                  ),
+                  title: Text(
+                    "Ava Chen",
+                    style: TextStyle(
+                        fontSize: 19,
+                        fontWeight: FontWeight.w600,
+                        color: black),
+                  ),
+                ),
+              ],
             ),
           )
         ],
