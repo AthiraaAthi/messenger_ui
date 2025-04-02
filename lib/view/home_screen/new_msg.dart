@@ -116,15 +116,17 @@ class _NewMessageScreenState extends State<NewMessageScreen> {
           SizedBox(
             height: 10,
           ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: AssetImage(people1),
-            ),
-            title: Text(
-              "Ava Chen",
-              style: TextStyle(
-                  fontSize: 19, fontWeight: FontWeight.w600, color: black),
+          ListView.builder(
+            itemBuilder: (context, index) => ListTile(
+              leading: CircleAvatar(
+                radius: 25,
+                backgroundImage: AssetImage(people1),
+              ),
+              title: Text(
+                "Ava Chen",
+                style: TextStyle(
+                    fontSize: 19, fontWeight: FontWeight.w600, color: black),
+              ),
             ),
           )
         ],
