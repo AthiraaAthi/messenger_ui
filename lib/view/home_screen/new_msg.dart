@@ -124,7 +124,7 @@ class _NewMessageScreenState extends State<NewMessageScreen> {
                 ListTile(
                   leading: CircleAvatar(
                     radius: 25,
-                    backgroundImage: AssetImage(people1),
+                    backgroundImage: AssetImage(images[index]),
                   ),
                   title: Text(
                     "Ava Chen",
