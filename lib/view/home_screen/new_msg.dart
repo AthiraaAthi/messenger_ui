@@ -18,7 +18,9 @@ class _NewMessageScreenState extends State<NewMessageScreen> {
     "Vivian Lau",
     "Atlas Corrigon",
   ];
-  List<String> images = [];
+  List<String> images = [
+    people1,
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
