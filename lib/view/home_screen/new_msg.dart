@@ -134,6 +134,7 @@ class _NewMessageScreenState extends State<NewMessageScreen> {
                         color: black),
                   ),
                 ),
+                Divider()
               ],
             ),
           )
