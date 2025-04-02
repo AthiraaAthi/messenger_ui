@@ -15,6 +15,8 @@ class _NewMessageScreenState extends State<NewMessageScreen> {
     "Bridget von Ascheberg",
     "Jules Ambrose",
     "Stella Alonso",
+    "Vivian Lau",
+    "Isabella Valencia",
   ];
   @override
   Widget build(BuildContext context) {
