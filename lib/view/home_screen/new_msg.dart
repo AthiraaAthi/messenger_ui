@@ -10,6 +10,7 @@ class NewMessageScreen extends StatefulWidget {
 }
 
 class _NewMessageScreenState extends State<NewMessageScreen> {
+  List<String> names = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
