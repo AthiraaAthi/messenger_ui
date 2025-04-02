@@ -118,6 +118,7 @@ class _NewMessageScreenState extends State<NewMessageScreen> {
           ),
           ListView.builder(
             itemCount: names.length,
+            shrinkWrap: true,
             itemBuilder: (context, index) => ListTile(
               leading: CircleAvatar(
                 radius: 25,
