@@ -23,6 +23,8 @@ class _NewMessageScreenState extends State<NewMessageScreen> {
     people2,
     people3,
     people4,
+    people5,
+    people6,
   ];
   @override
   Widget build(BuildContext context) {
