@@ -40,6 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
         leading: Padding(
           padding: const EdgeInsets.all(5),
           child: InkWell(
+            onTap: () {},
             child: CircleAvatar(
               backgroundImage: AssetImage(
                 profile,
