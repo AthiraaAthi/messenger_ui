@@ -9,6 +9,10 @@ class UserSettingsScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: white,
+        leading: Icon(
+          Icons.arrow_back_ios_new_rounded,
+          color: white,
+        ),
       ),
     );
   }
