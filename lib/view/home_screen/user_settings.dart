@@ -16,7 +16,10 @@ class UserSettingsScreen extends StatelessWidget {
         actions: [
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text("Done"),
+            child: Text(
+              "Done",
+              style: TextStyle(),
+            ),
           )
         ],
       ),
