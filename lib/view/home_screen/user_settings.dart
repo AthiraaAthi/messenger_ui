@@ -13,7 +13,12 @@ class UserSettingsScreen extends StatelessWidget {
           Icons.arrow_back_ios_new_rounded,
           color: white,
         ),
-        actions: [],
+        actions: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("Done"),
+          )
+        ],
       ),
     );
   }
