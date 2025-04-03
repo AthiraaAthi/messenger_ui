@@ -23,6 +23,7 @@ class UserSettingsScreen extends StatelessWidget {
           )
         ],
       ),
+      backgroundColor: white,
     );
   }
 }
