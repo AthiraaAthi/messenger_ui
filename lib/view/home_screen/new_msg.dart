@@ -12,7 +12,7 @@ class NewMessageScreen extends StatefulWidget {
 class _NewMessageScreenState extends State<NewMessageScreen> {
   List<String> names = [
     "Ava Chen",
-    "Bridget von Ascheberg",
+    "Ryle Kincaid",
     "James",
     "Stella Alonso",
     "Vivian Lau",
@@ -127,7 +127,7 @@ class _NewMessageScreenState extends State<NewMessageScreen> {
                     backgroundImage: AssetImage(images[index]),
                   ),
                   title: Text(
-                    "Ava Chen",
+                    names[index],
                     style: TextStyle(
                         fontSize: 19,
                         fontWeight: FontWeight.w600,
