@@ -13,6 +13,7 @@ class UserSettingsScreen extends StatelessWidget {
           Icons.arrow_back_ios_new_rounded,
           color: white,
         ),
+        actions: [],
       ),
     );
   }
