@@ -30,7 +30,6 @@ class UserSettingsScreen extends StatelessWidget {
           Container(
             height: 300,
             width: double.infinity,
-            decoration: BoxDecoration(color: Colors.green.shade100),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -43,6 +42,7 @@ class UserSettingsScreen extends StatelessWidget {
                     image: DecorationImage(image: AssetImage(profileCode)),
                   ),
                 ),
+                Text("")
               ],
             ),
           ),
