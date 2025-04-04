@@ -42,7 +42,7 @@ class UserSettingsScreen extends StatelessWidget {
                     image: DecorationImage(image: AssetImage(profileCode)),
                   ),
                 ),
-                Text("")
+                Text("Nick Leister")
               ],
             ),
           ),
