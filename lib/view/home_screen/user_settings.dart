@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
+import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
 
 class UserSettingsScreen extends StatelessWidget {
   const UserSettingsScreen({super.key});
@@ -36,8 +37,11 @@ class UserSettingsScreen extends StatelessWidget {
                 Container(
                   height: 170,
                   width: 170,
-                  decoration:
-                      BoxDecoration(color: white, shape: BoxShape.circle),
+                  decoration: BoxDecoration(
+                    color: white,
+                    shape: BoxShape.circle,
+                    image: DecorationImage(image: AssetImage(profileCode)),
+                  ),
                 ),
               ],
             ),
