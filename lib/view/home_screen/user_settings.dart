@@ -42,6 +42,9 @@ class UserSettingsScreen extends StatelessWidget {
                     image: DecorationImage(image: AssetImage(profileCode)),
                   ),
                 ),
+                SizedBox(
+                  height: 20,
+                ),
                 Text("Nick Leister")
               ],
             ),
