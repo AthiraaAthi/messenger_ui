@@ -33,6 +33,7 @@ class UserSettingsScreen extends StatelessWidget {
             child: Container(
               height: 170,
               width: 170,
+              decoration: BoxDecoration(),
             ),
           ),
         ],
