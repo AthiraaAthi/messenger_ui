@@ -45,7 +45,10 @@ class UserSettingsScreen extends StatelessWidget {
                 SizedBox(
                   height: 20,
                 ),
-                Text("Nick Leister")
+                Text(
+                  "Nick Leister",
+                  style: TextStyle(),
+                )
               ],
             ),
           ),
