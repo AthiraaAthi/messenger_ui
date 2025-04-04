@@ -32,6 +32,7 @@ class UserSettingsScreen extends StatelessWidget {
             decoration: BoxDecoration(color: Colors.green.shade100),
             child: Container(
               height: 170,
+              width: 170,
             ),
           ),
         ],
