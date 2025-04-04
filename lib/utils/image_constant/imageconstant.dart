@@ -20,3 +20,4 @@ const String insta = "assets/images/insta.png";
 const String disney = "assets/images/disnep.png";
 const String facebook = "assets/images/fb.png";
 const String mcDonalds = "assets/images/mcDonalds.png";
+const String profileCode = "assets/images/Profile_code.png";
