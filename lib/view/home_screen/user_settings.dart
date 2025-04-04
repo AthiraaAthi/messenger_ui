@@ -25,7 +25,11 @@ class UserSettingsScreen extends StatelessWidget {
       ),
       backgroundColor: white,
       body: Column(
-        children: [Container()],
+        children: [
+          Container(
+            height: 300,
+          ),
+        ],
       ),
     );
   }
