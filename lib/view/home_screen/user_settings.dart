@@ -73,7 +73,8 @@ class UserSettingsScreen extends StatelessWidget {
               value: false,
               onChanged: (value) {},
             ),
-          )
+          ),
+          Divider()
         ],
       ),
     );
