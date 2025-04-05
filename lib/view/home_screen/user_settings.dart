@@ -60,7 +60,11 @@ class UserSettingsScreen extends StatelessWidget {
             height: 20,
           ),
           ListTile(
-            leading: CircleAvatar(),
+            leading: CircleAvatar(
+              radius: 25,
+              backgroundImage: AssetImage(darkMode),
+            ),
+            title: Text("Dark Mode"),
           )
         ],
       ),
