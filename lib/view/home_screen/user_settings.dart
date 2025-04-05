@@ -47,7 +47,11 @@ class UserSettingsScreen extends StatelessWidget {
                 ),
                 Text(
                   "Nick Leister",
-                  style: TextStyle(),
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w600,
+                    color: black,
+                  ),
                 )
               ],
             ),
