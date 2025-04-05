@@ -21,3 +21,5 @@ const String disney = "assets/images/disnep.png";
 const String facebook = "assets/images/fb.png";
 const String mcDonalds = "assets/images/mcDonalds.png";
 const String profileCode = "assets/images/Profile_code.png";
+const String darkMode = "assets\images\dark_theme.png";
+const String active = "assets\images\active status.png";
