@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
@@ -64,7 +65,14 @@ class UserSettingsScreen extends StatelessWidget {
               radius: 25,
               backgroundImage: AssetImage(darkMode),
             ),
-            title: Text("Dark Mode"),
+            title: Text(
+              "Dark Mode",
+              style: TextStyle(fontWeight: FontWeight.w500),
+            ),
+            trailing: CupertinoSwitch(
+              value: false,
+              onChanged: (value) {},
+            ),
           )
         ],
       ),
