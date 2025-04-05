@@ -24,3 +24,5 @@ const String profileCode = "assets/images/Profile_code.png";
 const String darkMode = "assets/images/dark_theme.png";
 const String active = "assets/images/active status.png";
 const String username = "assets/images/username.png";
+const String phone = "assets\images\phone.png";
+const String notifications = "assets\images\notifications.png";
