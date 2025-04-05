@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
 import 'package:messenger_ui/view/home_screen/new_msg.dart';
-import 'package:messenger_ui/view/home_screen/user_settings.dart';
+import 'package:messenger_ui/view/home_screen/user_settings/user_settings.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
