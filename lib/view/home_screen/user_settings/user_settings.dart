@@ -78,7 +78,8 @@ class UserSettingsScreen extends StatelessWidget {
                   Text(
                     "On",
                     style: TextStyle(
-                      fontSize: 16,
+                      fontSize: 18,
+                      color: Colors.grey,
                     ),
                   ),
                   Icon(
