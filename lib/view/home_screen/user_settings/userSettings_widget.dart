@@ -20,7 +20,7 @@ class UsersettingsWidget extends StatelessWidget {
             backgroundImage: AssetImage(avatar),
           ),
           title: Text(
-            "Dark Mode",
+            text,
             style: TextStyle(fontWeight: FontWeight.w500),
           ),
           trailing: CupertinoSwitch(
