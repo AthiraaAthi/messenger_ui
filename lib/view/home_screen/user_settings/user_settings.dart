@@ -93,6 +93,7 @@ class UserSettingsScreen extends StatelessWidget {
               text: "Username",
               avatar: username,
               trailing: Row(
+                mainAxisSize: MainAxisSize.min,
                 children: [],
               ))
         ],
