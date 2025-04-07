@@ -75,6 +75,9 @@ class UserSettingsScreen extends StatelessWidget {
               trailing: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
+                  Text(
+                    "On",
+                  ),
                   Icon(
                     Icons.keyboard_arrow_right,
                     size: 30,
