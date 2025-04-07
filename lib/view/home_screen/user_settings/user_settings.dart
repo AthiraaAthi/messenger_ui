@@ -77,6 +77,7 @@ class UserSettingsScreen extends StatelessWidget {
                 children: [
                   Text(
                     "On",
+                    style: TextStyle(),
                   ),
                   Icon(
                     Icons.keyboard_arrow_right,
