@@ -88,6 +88,12 @@ class UserSettingsScreen extends StatelessWidget {
                     color: Colors.grey,
                   )
                 ],
+              )),
+          UsersettingsWidget(
+              text: "Username",
+              avatar: username,
+              trailing: Row(
+                children: [],
               ))
         ],
       ),
