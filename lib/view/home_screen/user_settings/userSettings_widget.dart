@@ -2,8 +2,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class UsersettingsWidget extends StatelessWidget {
-  const UsersettingsWidget({super.key});
-
+  const UsersettingsWidget(
+      {super.key,
+      required this.text,
+      required this.avatar,
+      required this.trailing});
+  final CircleAvatar avatar;
+  final String text;
+  final Widget trailing;
   @override
   Widget build(BuildContext context) {
     return Column(
