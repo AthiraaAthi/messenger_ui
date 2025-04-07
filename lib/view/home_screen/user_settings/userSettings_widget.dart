@@ -15,19 +15,20 @@ class UsersettingsWidget extends StatelessWidget {
     return Column(
       children: [
         ListTile(
-          leading: CircleAvatar(
-            radius: 25,
-            backgroundImage: AssetImage(avatar),
-          ),
-          title: Text(
-            text,
-            style: TextStyle(fontWeight: FontWeight.w500),
-          ),
-          trailing: CupertinoSwitch(
-            value: false,
-            onChanged: (value) {},
-          ),
-        ),
+            leading: CircleAvatar(
+              radius: 25,
+              backgroundImage: AssetImage(avatar),
+            ),
+            title: Text(
+              text,
+              style: TextStyle(fontWeight: FontWeight.w500),
+            ),
+            trailing: trailing
+            // CupertinoSwitch(
+            //   value: false,
+            //   onChanged: (value) {},
+            // ),
+            ),
         Divider()
       ],
     );
