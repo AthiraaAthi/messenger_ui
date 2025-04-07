@@ -72,7 +72,10 @@ class UserSettingsScreen extends StatelessWidget {
           UsersettingsWidget(
               text: "Active Status",
               avatar: activeStatus,
-              trailing: Icon(Icons.keyboard_arrow_right))
+              trailing: Icon(
+                Icons.keyboard_arrow_right,
+                size: 30,
+              ))
         ],
       ),
     );
