@@ -7,7 +7,7 @@ class UsersettingsWidget extends StatelessWidget {
       required this.text,
       required this.avatar,
       required this.trailing});
-  final CircleAvatar avatar;
+  final String avatar;
   final String text;
   final Widget trailing;
   @override
@@ -17,7 +17,7 @@ class UsersettingsWidget extends StatelessWidget {
         ListTile(
           leading: CircleAvatar(
             radius: 25,
-            backgroundImage: AssetImage(""),
+            backgroundImage: AssetImage(avatar),
           ),
           title: Text(
             "Dark Mode",
