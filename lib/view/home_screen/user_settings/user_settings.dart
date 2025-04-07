@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
+import 'package:messenger_ui/view/home_screen/user_settings/userSettings_widget.dart';
 
 class UserSettingsScreen extends StatelessWidget {
   const UserSettingsScreen({super.key});
@@ -60,21 +61,14 @@ class UserSettingsScreen extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: AssetImage(darkMode),
-            ),
-            title: Text(
-              "Dark Mode",
-              style: TextStyle(fontWeight: FontWeight.w500),
-            ),
+          UsersettingsWidget(
+            text: "Dark Mode",
+            avatar: darkMode,
             trailing: CupertinoSwitch(
               value: false,
               onChanged: (value) {},
             ),
           ),
-          Divider()
         ],
       ),
     );
