@@ -27,103 +27,107 @@ class UserSettingsScreen extends StatelessWidget {
         ],
       ),
       backgroundColor: white,
-      body: Column(
-        children: [
-          Container(
-            height: 300,
-            width: double.infinity,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  height: 170,
-                  width: 170,
-                  decoration: BoxDecoration(
-                    color: white,
-                    shape: BoxShape.circle,
-                    image: DecorationImage(image: AssetImage(profileCode)),
-                  ),
-                ),
-                SizedBox(
-                  height: 20,
-                ),
-                Text(
-                  "Nick Leister",
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.w600,
-                    color: black,
-                  ),
-                )
-              ],
-            ),
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          UsersettingsWidget(
-            text: "Dark Mode",
-            avatar: darkMode,
-            trailing: CupertinoSwitch(
-              value: false,
-              onChanged: (value) {},
-            ),
-          ),
-          UsersettingsWidget(
-              text: "Active Status",
-              avatar: activeStatus,
-              trailing: Row(
-                mainAxisSize: MainAxisSize.min,
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Container(
+              height: 300,
+              width: double.infinity,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
-                    "On",
-                    style: TextStyle(
-                      fontSize: 18,
-                      color: Colors.grey,
+                  Container(
+                    height: 170,
+                    width: 170,
+                    decoration: BoxDecoration(
+                      color: white,
+                      shape: BoxShape.circle,
+                      image: DecorationImage(image: AssetImage(profileCode)),
                     ),
                   ),
-                  Icon(
-                    Icons.keyboard_arrow_right,
-                    size: 30,
-                    color: Colors.grey,
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text(
+                    "Nick Leister",
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.w600,
+                      color: black,
+                    ),
                   )
                 ],
-              )),
-          UsersettingsWidget(
-              text: "Username",
-              avatar: username,
-              trailing: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(
-                    "m.me/Nick_L",
-                    style: TextStyle(
-                      fontSize: 16,
-                      color: Colors.grey,
+              ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            UsersettingsWidget(
+              text: "Dark Mode",
+              avatar: darkMode,
+              trailing: CupertinoSwitch(
+                value: false,
+                onChanged: (value) {},
+              ),
+            ),
+            UsersettingsWidget(
+                text: "Active Status",
+                avatar: activeStatus,
+                trailing: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(
+                      "On",
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.grey,
+                      ),
                     ),
-                  ),
-                ],
-              )),
-          UsersettingsWidget(
-              text: "Phone",
-              avatar: phone,
-              trailing: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(
-                    "+1 202 555 0147",
-                    style: TextStyle(
-                      fontSize: 16,
+                    Icon(
+                      Icons.keyboard_arrow_right,
+                      size: 30,
                       color: Colors.grey,
+                    )
+                  ],
+                )),
+            UsersettingsWidget(
+                text: "Username",
+                avatar: username,
+                trailing: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(
+                      "m.me/Nick_L",
+                      style: TextStyle(
+                        fontSize: 16,
+                        color: Colors.grey,
+                      ),
                     ),
-                  ),
-                ],
-              )),
-          SizedBox(
-            height: 10,
-          ),
-          Text("PREFERENCES")
-        ],
+                  ],
+                )),
+            UsersettingsWidget(
+                text: "Phone",
+                avatar: phone,
+                trailing: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(
+                      "+1 202 555 0147",
+                      style: TextStyle(
+                        fontSize: 16,
+                        color: Colors.grey,
+                      ),
+                    ),
+                  ],
+                )),
+            SizedBox(
+              height: 10,
+            ),
+            Text("PREFERENCES")
+          ],
+        ),
       ),
     );
   }
