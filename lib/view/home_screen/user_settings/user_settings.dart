@@ -99,6 +99,7 @@ class UserSettingsScreen extends StatelessWidget {
                     "m.me/Nick_L",
                     style: TextStyle(
                       fontSize: 16,
+                      color: Colors.grey,
                     ),
                   ),
                 ],
