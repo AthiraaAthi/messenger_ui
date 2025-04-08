@@ -103,7 +103,8 @@ class UserSettingsScreen extends StatelessWidget {
                     ),
                   ),
                 ],
-              ))
+              )),
+          UsersettingsWidget(text: "", avatar: "", trailing: Row())
         ],
       ),
     );
