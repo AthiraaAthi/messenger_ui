@@ -112,6 +112,7 @@ class UserSettingsScreen extends StatelessWidget {
                 children: [
                   Text(
                     "+1 202 555 0147",
+                    style: TextStyle(),
                   ),
                 ],
               ))
