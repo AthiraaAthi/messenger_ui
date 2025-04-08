@@ -109,7 +109,11 @@ class UserSettingsScreen extends StatelessWidget {
               avatar: phone,
               trailing: Row(
                 mainAxisSize: MainAxisSize.min,
-                children: [],
+                children: [
+                  Text(
+                    "+1 202 555 0147",
+                  ),
+                ],
               ))
         ],
       ),
