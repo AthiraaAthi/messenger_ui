@@ -104,7 +104,7 @@ class UserSettingsScreen extends StatelessWidget {
                   ),
                 ],
               )),
-          UsersettingsWidget(text: "", avatar: "", trailing: Row())
+          UsersettingsWidget(text: "Phone", avatar: "", trailing: Row())
         ],
       ),
     );
