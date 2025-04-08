@@ -114,6 +114,7 @@ class UserSettingsScreen extends StatelessWidget {
                     "+1 202 555 0147",
                     style: TextStyle(
                       fontSize: 16,
+                      color: Colors.grey,
                     ),
                   ),
                 ],
