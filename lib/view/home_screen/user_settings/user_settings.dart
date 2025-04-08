@@ -97,7 +97,9 @@ class UserSettingsScreen extends StatelessWidget {
                 children: [
                   Text(
                     "m.me/Nick_L",
-                    style: TextStyle(),
+                    style: TextStyle(
+                      fontSize: 16,
+                    ),
                   ),
                 ],
               ))
