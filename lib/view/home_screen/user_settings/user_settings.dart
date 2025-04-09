@@ -103,6 +103,9 @@ class UserSettingsScreen extends StatelessWidget {
                           color: Colors.grey,
                         ),
                       ),
+                      Icon(
+                        Icons.keyboard_arrow_right,
+                      )
                     ],
                   )),
               UsersettingsWidget(
