@@ -27,4 +27,4 @@ const String username = "assets/images/username.png";
 const String phone = "assets/images/phone.png";
 const String notifications = "assets/images/notifications.png";
 const String people_icon = "assets/images/people.png";
-const String messenger_icon = "assets\images\messenger_icon.png";
+const String messenger_icon = "assets/images/messenger_icon.png";
