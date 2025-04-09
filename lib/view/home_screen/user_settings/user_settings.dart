@@ -147,7 +147,13 @@ class UserSettingsScreen extends StatelessWidget {
                     Icons.keyboard_arrow_right,
                     size: 30,
                     color: Colors.grey,
-                  ))
+                  )),
+              UsersettingsWidget(
+                  text: "People",
+                  avatar: "",
+                  trailing: Icon(
+                    Icons.keyboard_arrow_right,
+                  )),
             ],
           ),
         ),
