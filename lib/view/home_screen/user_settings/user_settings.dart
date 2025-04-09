@@ -141,7 +141,7 @@ class UserSettingsScreen extends StatelessWidget {
                 height: 20,
               ),
               UsersettingsWidget(
-                  text: "",
+                  text: "Notifications & Sounds",
                   avatar: "",
                   trailing: Icon(
                     Icons.keyboard_arrow_right,
