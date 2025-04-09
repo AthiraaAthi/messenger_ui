@@ -62,9 +62,6 @@ class UserSettingsScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(
-                height: 20,
-              ),
               UsersettingsWidget(
                 text: "Dark Mode",
                 avatar: darkMode,
