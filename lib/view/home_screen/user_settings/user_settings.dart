@@ -126,6 +126,9 @@ class UserSettingsScreen extends StatelessWidget {
               Text(
                 "PREFERENCES",
                 style: TextStyle(color: Colors.grey, fontSize: 17),
+              ),
+              SizedBox(
+                height: 20,
               )
             ],
           ),
