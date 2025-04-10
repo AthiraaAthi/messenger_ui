@@ -326,6 +326,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
                         "30 min",
                         style: TextStyle(
                           color: black,
+                          fontSize: 10,
                         ),
                       ),
                     ),
