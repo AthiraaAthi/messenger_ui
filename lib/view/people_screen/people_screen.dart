@@ -178,7 +178,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
               ),
             ),
             SizedBox(
-              height: 20,
+              height: 10,
             ),
             ListView.builder(
               shrinkWrap: true,
