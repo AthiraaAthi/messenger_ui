@@ -222,7 +222,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text("RECENTLY ACTIVE",
-                  style: TextStyle(fontSize: 17, color: Colors.grey[400])),
+                  style: TextStyle(fontSize: 17, color: Colors.grey)),
             ),
             ListTile(
               leading: Stack(
