@@ -74,6 +74,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
         leading: Padding(
           padding: const EdgeInsets.all(5),
           child: InkWell(
+            onTap: () {},
             child: CircleAvatar(
               backgroundImage: AssetImage(
                 profile,
