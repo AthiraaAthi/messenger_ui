@@ -73,12 +73,14 @@ class _PeopleScreenState extends State<PeopleScreen> {
       appBar: AppBar(
         leading: Padding(
           padding: const EdgeInsets.all(5),
-          child: CircleAvatar(
-            backgroundImage: AssetImage(
-              profile,
+          child: InkWell(
+            child: CircleAvatar(
+              backgroundImage: AssetImage(
+                profile,
+              ),
+              radius: 20,
+              backgroundColor: black,
             ),
-            radius: 20,
-            backgroundColor: black,
           ),
         ),
         backgroundColor: white,
