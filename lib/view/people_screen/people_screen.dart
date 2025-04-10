@@ -324,7 +324,9 @@ class _PeopleScreenState extends State<PeopleScreen> {
                       ),
                       child: Text(
                         "30 min",
-                        style: TextStyle(),
+                        style: TextStyle(
+                          color: black,
+                        ),
                       ),
                     ),
                   ),
