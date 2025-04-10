@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
 import 'package:messenger_ui/view/discover_screen/discover_brand.dart';
+import 'package:messenger_ui/view/home_screen/user_settings/user_settings.dart';
 
 class DiscoverScreen extends StatefulWidget {
   const DiscoverScreen({super.key});
@@ -44,7 +45,13 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
         leading: Padding(
           padding: const EdgeInsets.all(5),
           child: InkWell(
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => UserSettingsScreen(),
+                  ));
+            },
             child: CircleAvatar(
               backgroundImage: AssetImage(
                 profile,
