@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:messenger_ui/utils/color_constant/colorconstant.dart';
 import 'package:messenger_ui/utils/image_constant/imageconstant.dart';
+import 'package:messenger_ui/view/home_screen/user_settings/user_settings.dart';
 
 class PeopleScreen extends StatefulWidget {
   const PeopleScreen({super.key});
@@ -74,7 +75,13 @@ class _PeopleScreenState extends State<PeopleScreen> {
         leading: Padding(
           padding: const EdgeInsets.all(5),
           child: InkWell(
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => UserSettingsScreen(),
+                  ));
+            },
             child: CircleAvatar(
               backgroundImage: AssetImage(
                 profile,
