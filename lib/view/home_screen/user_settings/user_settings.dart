@@ -157,8 +157,8 @@ class UserSettingsScreen extends StatelessWidget {
                     color: Colors.grey,
                   )),
               UsersettingsWidget(
-                  text: "",
-                  avatar: "",
+                  text: "Messaging Settings",
+                  avatar: messenger_icon,
                   trailing: Icon(
                     Icons.keyboard_arrow_right,
                     size: 30,
