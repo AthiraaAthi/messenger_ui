@@ -323,7 +323,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
                         borderRadius: BorderRadius.circular(8),
                       ),
                       child: Text(
-                        "",
+                        "30 min",
                       ),
                     ),
                   ),
