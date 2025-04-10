@@ -217,7 +217,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
               ),
             ),
             SizedBox(
-              height: 20,
+              height: 10,
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
